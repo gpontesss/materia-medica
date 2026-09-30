@@ -1,0 +1,616 @@
+/* Typography takes its family and its relative proportions from the Typst
+   PDF (materia-medica.typ): EB Garamond + Noto Serif Devanagari, justified
+   paragraphs, headings at Typst's default 1.4em/1.2em/1.1em ratios (all
+   sized in em, so they scale with the base size below). Plain
+   black-on-white -- no accent color, no decoration beyond what the PDF
+   itself has (rules, spacing, bold/italic). Text measure is NOT taken from
+   the PDF's fixed page width -- it's a comfortable reading line length that
+   adapts to the viewport, with the base font size picked to keep words-per-
+   line comfortable at that measure (bump both together if either changes). */
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --text-muted: #444444;
+  --border: #000000;
+  --border-soft: #cccccc;
+  --max-measure: min(38rem, 92vw);
+  --backdrop: rgba(0, 0, 0, 0.5);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000;
+    --text: #ffffff;
+    --text-muted: #bbbbbb;
+    --border: #ffffff;
+    --border-soft: #444444;
+    --backdrop: rgba(0, 0, 0, 0.75);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "EB Garamond", "Noto Serif Devanagari", Georgia, "Times New Roman", serif;
+  font-size: 15pt;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: "Noto Serif Devanagari";
+  src: url("fonts/NotoSerifDevanagari-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif Devanagari";
+  src: url("fonts/NotoSerifDevanagari-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+a {
+  color: var(--text);
+}
+
+a:hover {
+  color: var(--text);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1.25rem;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+/* The sticky header sits on top of the page (up to ~108px tall when the
+   search box wraps to its own row on narrow viewports), so without this,
+   jumping to any in-page anchor -- a TOC link, a footnote, a heading link --
+   lands the target right underneath it: it looks like navigation silently
+   failed. Applies to every element with an id, not just headings, since
+   footnote refs/backlinks are anchor targets too. 7.5rem clears the header
+   at its tallest, with a little breathing room to spare. */
+[id] {
+  scroll-margin-top: 7.5rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.search-wrap {
+  position: relative;
+  flex: 1 1 20rem;
+  max-width: 24rem;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.95em;
+  font-family: inherit;
+  border: 1px solid var(--border);
+  border-radius: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#search-input:focus {
+  outline: 1px solid var(--text);
+  outline-offset: 1px;
+}
+
+.search-results {
+  position: absolute;
+  inset-inline: 0;
+  top: calc(100% + 0.3rem);
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 0;
+}
+
+.search-results a {
+  display: block;
+  padding: 0.5rem 0.7rem;
+  text-decoration: none;
+  color: var(--text);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.search-results a:last-child {
+  border-bottom: none;
+}
+
+.search-results a:hover,
+.search-results a.active {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.search-results a:hover mark,
+.search-results a.active mark {
+  color: inherit;
+}
+
+.search-results .result-title {
+  font-weight: 700;
+}
+
+.search-results .result-category {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-inline-start: 0.4em;
+}
+
+.search-results a:hover .result-category,
+.search-results a.active .result-category {
+  color: inherit;
+}
+
+.search-results .result-snippet {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.search-results a:hover .result-snippet,
+.search-results a.active .result-snippet {
+  color: inherit;
+}
+
+mark {
+  background: none;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.search-empty {
+  padding: 0.6rem 0.7rem;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.site-main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.index-intro {
+  max-width: var(--max-measure);
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.entry-group h2 {
+  font-size: 1.1em;
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3rem;
+  margin-top: 2.2rem;
+}
+
+.entry-list {
+  list-style: none;
+  margin: 0.8rem 0;
+  padding: 0;
+}
+
+.entry-list li {
+  margin: 0.3rem 0;
+  break-inside: avoid;
+}
+
+.entry-list a {
+  text-decoration: none;
+}
+
+.entry-list a:hover {
+  text-decoration: underline;
+}
+
+.entry-list-multi {
+  columns: 3 14rem;
+  column-gap: 2rem;
+}
+
+.entry {
+  max-width: var(--max-measure);
+  margin: 0 auto;
+}
+
+/* The table of contents is a pure side nav: fixed to the viewport, hugging
+   the left of the centered article column with a constant gap, so it never
+   competes with the article for width or affects its layout. Hidden below
+   the width where it would no longer fit without crowding the text. */
+.entry-toc {
+  display: none;
+}
+
+@media (min-width: 60rem) {
+  .entry-toc {
+    display: block;
+    position: fixed;
+    top: 4.5rem;
+    left: calc(50% - (var(--max-measure) / 2) - 15rem);
+    width: 13rem;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    padding: 0.7rem 0.9rem;
+    font-size: 0.85em;
+  }
+}
+
+.toc-fab {
+  display: none;
+}
+
+/* Below 60rem there's no room for the sidebar, so the contents nav becomes
+   a drawer opened by its own floating button instead (see .toc-fab). Nested
+   in the same max-width query as the button so a stray .open class can
+   never make it appear as a drawer at a width where the sidebar rule above
+   already shows it. */
+@media (max-width: 59.99rem) {
+  .toc-fab {
+    display: flex;
+  }
+
+  .entry-toc.open {
+    display: block;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    /* Clears the fab-stack at its tallest (nav-fab + toc-fab + top-fab). */
+    bottom: 13rem;
+    width: auto;
+    max-height: 55vh;
+    overflow-y: auto;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 0.8rem 1rem;
+    font-size: 0.95em;
+    z-index: 150;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.entry-toc .toc-heading {
+  margin: 0 0 0.4rem;
+  font-size: 0.8em;
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+
+.entry-toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry-toc li {
+  margin: 0.22rem 0;
+}
+
+.entry-toc a {
+  text-decoration: none;
+}
+
+.entry-toc a:hover {
+  text-decoration: underline;
+}
+
+.entry-toc .toc-l2 {
+  padding-inline-start: 0.9rem;
+  font-size: 0.92em;
+}
+
+.entry h1 {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+
+.entry h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.entry h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+.entry p,
+.entry ul,
+.entry ol {
+  max-width: var(--max-measure);
+}
+
+.entry p {
+  text-align: justify;
+  hyphens: auto;
+  margin: 0.85em 0;
+}
+
+.entry a[role="doc-noteref"] {
+  text-decoration: none;
+  padding: 0 0.1em;
+}
+
+section[role="doc-endnotes"] {
+  margin-top: 3rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+section[role="doc-endnotes"] li {
+  margin: 0.5rem 0;
+}
+
+.back-link {
+  margin-top: 2.5rem;
+  font-size: 0.95em;
+}
+
+.site-footer {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+@media (max-width: 30rem) {
+  body {
+    font-size: 14pt;
+  }
+  .entry-list-multi {
+    columns: 1;
+  }
+}
+
+/* Quick entry-switcher: a floating button + A-Z jump panel, present on
+   every page, for moving between entries without going back to the index. */
+
+/* All floating action buttons (entry switcher, section TOC, back-to-top)
+   live in one flex stack so they always stay cleanly stacked with a
+   consistent gap regardless of which ones exist on a given page/viewport --
+   no per-button bottom:calc() math to keep in sync. column-reverse means
+   the first child in DOM sits at the bottom (screen edge) and each
+   subsequent child stacks upward. */
+.fab-stack {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+.fab-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.fab-circle:hover,
+.fab-circle[aria-expanded="true"] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.nav-fab {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: var(--backdrop);
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* [hidden] and .nav-overlay have equal specificity, so without :not([hidden])
+   this display:flex would win by source order and defeat `hidden`. */
+.nav-overlay:not([hidden]) {
+  display: flex;
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+.nav-panel {
+  width: 100%;
+  max-width: 32rem;
+  max-height: 78vh;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+
+.nav-close {
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+}
+
+.nav-panel-body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.nav-list {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0.3rem 0;
+  overflow-y: auto;
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+.nav-letter-group {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  padding: 0.3rem 1rem 0.15rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.nav-list li:not(.nav-letter-group) {
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.nav-list a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-list a:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.nav-list a.current {
+  font-weight: 700;
+}
+
+.nav-list a.current::before {
+  content: "→ ";
+}
+
+.nav-item-category {
+  display: block;
+  font-size: 0.78em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.nav-list a:hover .nav-item-category {
+  color: inherit;
+}
+
+.nav-az {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.6rem;
+  padding: 0.4rem 0.2rem;
+  border-left: 1px solid var(--border);
+  touch-action: none;
+  user-select: none;
+}
+
+.nav-az-letter {
+  border: none;
+  background: none;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.06rem 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-az-letter:disabled {
+  color: var(--border-soft);
+  cursor: default;
+}
+
+.nav-az-letter:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+@media (min-width: 40rem) {
+  .nav-overlay {
+    align-items: center;
+  }
+  .nav-panel {
+    border-bottom: 1px solid var(--border);
+    max-height: 70vh;
+  }
+}
