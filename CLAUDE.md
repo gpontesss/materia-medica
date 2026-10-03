@@ -32,7 +32,20 @@ materia-medica/
   zz-glossary.typ     ← back-matter glossary
 ```
 
-`materia-medica.typ` (root) receives **four** comma-separated groups via `sys.inputs` — `reference`, `substances`, `formulas`, `glossary` — and `#include`s each group in that order, emitting a *Substance Entries* and a *Formulas* section divider between them. The Makefile builds the groups by glob (`MM_SUBSTANCES`, `MM_FORMULAS`) and passes them at compile time, so **new entries are picked up automatically — just put the file in the right folder, no registration needed.**
+`materia-medica.typ` (root) receives **four** comma-separated groups via `sys.inputs` — `substances`, `formulas`, `misc`, `glossary` — and `#include`s each as its own **titled part** of the book, in that order:
+
+| Part | Content | Input key |
+|---|---|---|
+| **Substances** | `substances/*.typ` | `substances` |
+| **Recipes & Formulas** | `formulas/*.typ` | `formulas` |
+| **Miscellaneous** | `climates.typ`, `tibb-al-arabi.typ` | `misc` |
+| **Glossary** | `zz-glossary.typ` | `glossary` |
+
+Each part opens with a divider page (a centered level-1 heading alone on the page). The Makefile builds the groups by glob (`MM_SUBSTANCES`, `MM_FORMULAS`) and passes them at compile time, so **new entries are picked up automatically — just put the file in the right folder, no registration needed.**
+
+**Heading levels are offset per part.** Inside each group the root document applies `#set heading(offset: 1)`, so an entry's own `=` title becomes level 2 and its `==` sections become level 3. The document hierarchy is therefore *part (1) → entry title (2) → entry section (3)*, which is what makes a multi-level table of contents possible without touching the entry files. Entry files still use `=` for their title and `==` for sections, exactly as before.
+
+**The table of contents is three levels deep** (`outline(depth: 3)`), styled per level by `show outline.entry.where(level: …)` rules so the hierarchy stays scannable in two narrow columns: parts larger and bold with space above, entry titles bold, section names smaller and indented. It runs ~19 pages, which is the price of being able to jump straight to an entry's *Modern Nutrition & Pharmacology* rather than only to the entry.
 
 Entry **slugs share one flat namespace** (the site generates one `<slug>.html` per entry); `site/build.py` fails the build on a collision.
 

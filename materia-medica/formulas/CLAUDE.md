@@ -39,6 +39,12 @@ Cross-reference the substance entry as well (`see substances/fuling.typ`) for th
 
 == Indications & Pattern
 
+== Misapplication & Look-Alike Patterns
+
+=== If given to the wrong pattern
+
+=== Patterns mistaken for this one
+
 == Modifications & Derived Formulas
 
 == Preparation & Administration
@@ -58,11 +64,22 @@ Section specifications:
 4. **Composition** — the full roster with **doses** (classical proportions and modern clinical grams), then one `===` subsection per ingredient, headed with its **君臣佐使 role**. Each subsection carries: the compact property line (see above); what the ingredient *does in this formula specifically*; and why it, rather than a near-neighbour, is the one used. Note processing/drug-form requirements (e.g. 炙甘草 honey-fried, not raw) — these are part of the composition, not a detail.
 5. **Formula Architecture** — the argument of the formula: how the roles compose, what pathological mechanism the structure addresses, and what would break if an ingredient were removed. This is the section that distinguishes a formula entry from a list.
 6. **Indications & Pattern** — the classical pattern (症候) with its presenting signs, including tongue and pulse; the modern biomedical correlates where they can be stated honestly; and the **differentiation** from formulas treating adjacent patterns.
-7. **Modifications & Derived Formulas** — the classical modifications (加減) and the named derived formulas built on this base, each with what the addition changes. For a base formula like 四君子湯 this section is substantial and is one of the entry's main justifications for existing.
-8. **Preparation & Administration** — the classical method (decoction, powder, pill; water volume, reduction, order of addition, pre- or post-decoction of particular drugs), dose, timing relative to meals, course length, and the modern forms (granules, patents) with their differences flagged.
-9. **Cautions & Contraindications** — patterns in which the formula is wrong, classical incompatibilities among or affecting its ingredients (十八反 / 十九畏 where relevant), modern herb-drug interactions arising from the constituents, and risk groups. Tag modern-tier claims as such.
-10. **Modern Pharmacology** — brief and honestly tiered: what has been studied *as the whole formula* (not just the isolated herbs), and where the evidence is preclinical, small-trial, or absent. Formula-level evidence is usually thinner than single-herb evidence; say so rather than importing the herbs' literature wholesale.
-11. **Sources** — full bibliography, as in substance entries.
+7. **Misapplication & Look-Alike Patterns** — *required.* What goes wrong when the formula is given to the wrong pattern, and which patterns get mistaken for its indication. Two subsections:
+   - `=== If given to the wrong pattern` — for each wrong-pattern category: the **mechanism** (why *this* formula harms *that* pattern), the **presenting consequence** (what the patient actually experiences, and how soon), and the **correction** (stop, modify, or which formula was wanted instead). Name the classical idiom where one exists — e.g. *閉門留寇* ("shutting the door and leaving the bandit inside") for tonifying an unresolved exterior pattern.
+   - `=== Patterns mistaken for this one` — the look-alikes. For each: **why it resembles** the indication (the shared signs that cause the error), the **distinguishing sign** that separates them (tongue, pulse, and the one symptom that decides it), and **what to give instead**. Include at least one *modern* trap — a biomedical diagnosis routinely equated with the pattern but not identical to it (anaemia ≠ 血虛; chronic fatigue ≠ 氣虛).
+
+   **Division of labour — keep these three apart rather than saying the same thing three times:**
+   - *Indications & Pattern → Differentiation* compares this formula with adjacent formulas once the pattern has been **correctly** identified: "this is for X, that one is for Y."
+   - *This* section is about **diagnostic error** — being wrong about the pattern in the first place, and what that costs.
+   - *Cautions & Contraindications* is about **pharmacological safety** — ingredient-derived interactions, dose ceilings, risk groups — not pattern-matching.
+
+   Cross-reference between them rather than repeating. This section is the part of a formula entry most likely to be useful at the point of care, precisely because the classical literature is rich on indications and comparatively terse on the consequences of error: **state the mechanism, not just the prohibition**, and flag clearly where a consequence is a clinical commonplace versus where it is this book's own inference from the formula's composition.
+
+8. **Modifications & Derived Formulas** — the classical modifications (加減) and the named derived formulas built on this base, each with what the addition changes. For a base formula like 四君子湯 this section is substantial and is one of the entry's main justifications for existing.
+9. **Preparation & Administration** — the classical method (decoction, powder, pill; water volume, reduction, order of addition, pre- or post-decoction of particular drugs), dose, timing relative to meals, course length, and the modern forms (granules, patents) with their differences flagged.
+10. **Cautions & Contraindications** — patterns in which the formula is wrong, classical incompatibilities among or affecting its ingredients (十八反 / 十九畏 where relevant), modern herb-drug interactions arising from the constituents, and risk groups. Tag modern-tier claims as such.
+11. **Modern Pharmacology** — brief and honestly tiered: what has been studied *as the whole formula* (not just the isolated herbs), and where the evidence is preclinical, small-trial, or absent. Formula-level evidence is usually thinner than single-herb evidence; say so rather than importing the herbs' literature wholesale.
+12. **Sources** — full bibliography, as in substance entries.
 
 Sections that genuinely do not apply should be marked as such, not padded.
 

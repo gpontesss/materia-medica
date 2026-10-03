@@ -175,3 +175,51 @@ Both changes are documented in `site/CLAUDE.md` (a new scroll-margin-top rule un
 - The practical ceiling on the formula is its 炙甘草: glycyrrhizin pseudoaldosteronism is what limits duration and dose, and is the reason modern practice reduces the licorice below the classical equal parts.
 
 **Glossary:** ~20 new terms, including a new *Formula construction* subsection under the Chinese-medicine section (君臣佐使, 基礎方, 加減, 補中有瀉, 另煎, 錢, 顆粒) — plus 運化, 脾虛生濕, and the drug and formula names the entry introduces (白朮/蒼朮, 炙甘草, 四物湯, 理中丸, and an expanded 四君子湯 entry listing the derived family). 補中有瀉 and 君臣佐使 had both been *used* in earlier entries without ever being defined; that gap is now closed.
+
+---
+
+## 2026-10-03 — Four titled parts in the PDF; three-level table of contents
+
+Follow-up to the restructure earlier today, from reading the result: the book had two section dividers (*Substance Entries*, *Formulas*) but the foundational references and the glossary floated outside any part, and the table of contents listed only entry titles — so you could jump to an entry but not to a section within one, in a 1,400-page book.
+
+**Four titled parts, each with a divider page:** **Substances** → **Recipes & Formulas** → **Miscellaneous** (the two foundational framework entries, `climates.typ` and `tibb-al-arabi.typ`) → **Glossary**.
+
+*On the ordering:* the glossary is placed last rather than third as listed in the request, because this project already encodes "glossary goes last" in the `zz-` filename prefix, and the website's index orders it last too — keeping book and site consistent mattered more than literal list order. Swapping the last two parts is a two-line change in `materia-medica.typ` if the other order is preferred.
+
+*On the naming:* the PDF part is called **Miscellaneous** per the request, while `site/build.py` still labels the same two files **Foundational references** (`CATEGORY_LABELS`). Deliberately left divergent because the request was scoped to the PDF, but it is a real inconsistency for anyone using both — aligning it is a one-line change.
+
+**The Makefile's `MM_REFERENCE` / `reference=` input was renamed `MM_MISC` / `misc=`** so the build inputs match the part names.
+
+**Three-level table of contents.** The enabling trick is `#set heading(offset: 1)` around each included group: a part divider is a level-1 heading, and inside a group every entry's own `=` title becomes level 2 and its `==` sections level 3. *Entry files are untouched and keep using `=` / `==` as before* — the offset lives entirely in the root document, which is what makes this possible across 90 files without editing any of them.
+
+`outline(depth: 3, indent: 0.6em)` then lists parts, entries, and sections, with `show outline.entry.where(level: …)` rules styling each level: parts at 1.15em bold with space above, entry titles bold, section names at 0.82em. Two iterations were needed — the first pass made parts and entry titles both plain bold (indistinguishable at a glance) and left section names large enough that long headings like "Traditional Arabic & Islamic Medicine (Ṭibb al-ʿArabī wa-l-Islāmī / Unani)" wrapped to three lines in a 1.85in column. Enlarging the part level and dropping sections to 0.82em fixed both and *reduced* total page count. Part divider titles were also enlarged to 1.9em, since a default level-1 heading alone on an otherwise blank page read as undersized.
+
+**Cost:** the TOC grew from ~3 pages to ~19, and the book from 1,410 to 1,426 pages. Worth it for a reference work that is navigated rather than read through — the point is being able to jump to a specific entry's *Climate, Constitution & Regional Diet*, not just to the entry.
+
+---
+
+## 2026-10-03 — Four Substances Decoction; new required "Misapplication & Look-Alike Patterns" section
+
+**Second formula entry: Four Substances Decoction (四物湯)**, the blood-nourishing counterpart to 四君子湯 — the two were built by the tradition as a matched pair and now sit as a matched pair in the book.
+
+Notes from writing it:
+- **The formula's history is a repurposing.** Its canonical source is the Song _Hejijufang_ (1107–1110), but the combination appears earlier in the Tang _Xiān Shòu Lǐ Shāng Xù Duàn Mì Fāng_ as a **trauma** formula — for moving damaged blood, not nourishing deficient blood. The residue of that origin is still visible in the composition: a purely nourishing formula would have no need of 川芎 at all.
+- **An in-book divergence, flagged rather than smoothed.** `substances/rehmannia.typ` describes 四物湯 as using 生地黃 "or 熟地黃 in tonifying-blood variants"; `substances/dang-gui.typ` gives 熟地黃 flatly. The standard transmitted composition uses the prepared root, and the entry says so while noting that the rehmannia entry's phrasing is the looser of the two and would be worth tightening. This is the case the `formula-entry` skill's "surface a genuine conflict rather than silently picking a side" rule was written for, and it came up on the very next entry.
+- 白芍 and 川芎 have **no substance entries**, so their properties are given in full and the gap is stated, as was already done for 白朮.
+
+**New required section, added to the template: `== Misapplication & Look-Alike Patterns`**, with two subsections — *If given to the wrong pattern* and *Patterns mistaken for this one*. It sits immediately after *Indications & Pattern*, as its negative image.
+
+The reasoning for making it required rather than optional: the classical literature is generous about what a formula treats and comparatively terse about what happens when it is given wrongly, and that asymmetry is exactly where a reference book can add something. So the spec demands **mechanism, consequence, and correction** — not merely "contraindicated in X" — plus, for each look-alike pattern, the **one distinguishing sign** that decides it and what to give instead.
+
+**Division of labour, written into the spec** because three sections were otherwise going to say overlapping things:
+- *Indications → Differentiation* — comparing formulas once the pattern is **correctly** identified.
+- *Misapplication* — **diagnostic error**: being wrong about the pattern, and what that costs.
+- *Cautions* — **pharmacological safety**: interactions, dose ceilings, risk groups.
+
+Applying this immediately paid off on the existing entry: Four Gentlemen's *Cautions* section had been listing pattern contraindications at length, which now duplicated the new section, so it was cut back to a one-line summary plus a pointer.
+
+**Each entry must include at least one *modern* trap** — a biomedical label routinely equated with the pattern but not identical to it. For 四物湯 that is **anaemia ≠ 血虛** (a haemoglobin value is not a prescription, and the two diverge in both directions); for 四君子湯, **chronic fatigue ≠ 氣虛** (fatigue is the presenting complaint of a dozen patterns and of a long list of biomedical conditions). Both entries also mark the point at which pattern reasoning should defer to biomedical workup rather than compete with it.
+
+**Backfilled Four Gentlemen** with the same section. Writing it surfaced a failure mode worth recording: for a *mild* formula the usual consequence of misapplication is not harm but **nothing at all**, while weeks pass and the real pattern goes untreated — a clinical problem that the formula's reputation for gentleness actively conceals. Flagged in the entry as this book's own observation rather than a classical statement.
+
+**Updated:** `materia-medica/formulas/CLAUDE.md` (template + full section spec + division of labour), `.claude/skills/formula-entry/SKILL.md` (template + a non-negotiable bullet). **Glossary:** 閉門留寇, 滋膩, 補血而不滯血, 血虛, 肝鬱, 白芍/赤芍, 川芎, and an expanded 四物湯 entry.

@@ -3,15 +3,16 @@ FONT_PATH := ./fonts
 
 MATERIA_MEDICA_MAIN := ./materia-medica.typ
 
-# The book is assembled from four ordered groups, not one flat glob, so that
-# substances and formulas form distinct sections in the PDF. The foundational
-# reference entries lead; the glossary (zz- prefix) lands last.
-MM_REFERENCE := ./materia-medica/climates.typ ./materia-medica/tibb-al-arabi.typ
+# The book is assembled from four ordered groups, not one flat glob, so each
+# becomes its own titled part in the PDF: Substances, Recipes & Formulas,
+# Miscellaneous (the foundational framework entries), Glossary. The glossary
+# (zz- prefix) lands last, as its name has always been designed to.
 MM_SUBSTANCES := $(sort $(wildcard ./materia-medica/substances/*.typ))
 MM_FORMULAS := $(sort $(wildcard ./materia-medica/formulas/*.typ))
+MM_MISC := ./materia-medica/climates.typ ./materia-medica/tibb-al-arabi.typ
 MM_GLOSSARY := ./materia-medica/zz-glossary.typ
 
-MATERIA_MEDICA_ENTRIES := $(MM_REFERENCE) $(MM_SUBSTANCES) $(MM_FORMULAS) $(MM_GLOSSARY)
+MATERIA_MEDICA_ENTRIES := $(MM_SUBSTANCES) $(MM_FORMULAS) $(MM_MISC) $(MM_GLOSSARY)
 MATERIA_MEDICA_PDF := $(OUTDIR)/materia-medica.pdf
 
 SITE_DIR := $(OUTDIR)/site
@@ -32,9 +33,9 @@ serve-site: site
 
 $(MATERIA_MEDICA_PDF): $(MATERIA_MEDICA_MAIN) $(MATERIA_MEDICA_ENTRIES) | $(OUTDIR)
 	@typst compile --font-path $(FONT_PATH) \
-		--input "reference=$$(echo $(MM_REFERENCE) | tr ' ' ',')" \
 		--input "substances=$$(echo $(MM_SUBSTANCES) | tr ' ' ',')" \
 		--input "formulas=$$(echo $(MM_FORMULAS) | tr ' ' ',')" \
+		--input "misc=$$(echo $(MM_MISC) | tr ' ' ',')" \
 		--input "glossary=$$(echo $(MM_GLOSSARY) | tr ' ' ',')" \
 		$< $@
 

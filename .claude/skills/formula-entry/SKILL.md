@@ -55,6 +55,12 @@ Follow `materia-medica/formulas/CLAUDE.md` exactly. The template:
 
 == Indications & Pattern
 
+== Misapplication & Look-Alike Patterns
+
+=== If given to the wrong pattern
+
+=== Patterns mistaken for this one
+
 == Modifications & Derived Formulas
 
 == Preparation & Administration
@@ -71,6 +77,7 @@ Non-negotiables specific to formula entries:
 - **Every ingredient gets its 君臣佐使 role** in its `===` heading, and its function *inside this formula* in the body — not a generic description of the herb.
 - **Every ingredient block opens with a self-contained property line**: 性 (property), 味 (flavor), 歸經 (channels), principal actions. The entry must be readable without opening any other page. This is the rule the user cares most about — do not economize on it.
 - **No Typst tables.** The 5-inch page and the site's HTML pipeline both make them a bad fit; use the bulleted per-ingredient blocks.
+- **The Misapplication & Look-Alike Patterns section is required**, and is the one most likely to be useful at the point of care. Two halves: (a) *what happens* when the formula meets the wrong pattern — give the **mechanism**, the **presenting consequence**, and the **correction**, not merely "contraindicated in X"; (b) *what gets mistaken* for the indication — for each look-alike, why it resembles the pattern, the **one distinguishing sign** that decides it, and what to give instead. Include at least one **modern trap** (a biomedical label routinely equated with the pattern but not identical to it — anaemia ≠ 血虛, chronic fatigue ≠ 氣虛). Keep it distinct from the other two places that discuss "wrong": *Indications → Differentiation* compares formulas once the pattern is **correctly** identified; *Cautions* covers **pharmacological** safety. This section is about **diagnostic error**. Flag where a stated consequence is clinical commonplace versus this book's own inference from the composition.
 - **Doses**: give both classical proportions (as the source states them) and modern clinical grams, and flag that modern ranges are reference figures needing verification.
 - **Preparation method is substantive**, not a footnote: decoction vs. powder vs. pill, water volume and reduction, order of addition, any pre- or post-decocted ingredient, dose, timing, course length, and how modern granules/patents differ.
 - **Processing forms are part of the composition** — 炙甘草 (honey-fried licorice) is not 甘草, and saying so is required.
