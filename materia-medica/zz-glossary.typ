@@ -20,6 +20,8 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *五行 (wǔ xíng, "five phases / five elements")* — the five-phase correspondence framework: 木 (mù, Wood) → 火 (huǒ, Fire) → 土 (tǔ, Earth) → 金 (jīn, Metal) → 水 (shuǐ, Water) → back to Wood. Each phase corresponds to organs, seasons, colors, flavors, emotions, climates, sounds. Foundational to organ-system pathology. Source: _Su Wen_ ch. 5.
 
+*藥食同源 (yào shí tóng yuán, "medicine and food share the same source")* — the foundational Chinese dietetic principle that many substances function simultaneously as food and as drug, with no sharp category boundary between the two; the premise underlying this entire book's materia-medica approach to foods. Applies with particular cleanness to grain-and-seed drugs eaten both as staple food and prescribed as medicine, e.g. barley, adzuki, and especially 薏苡仁 (Job's tears) — see _coix.typ_.
+
 === Diagnostic categories
 
 *六淫 (liù yín, "six external excesses")* — the six external pathogenic factors: 風 (fēng, wind), 寒 (hán, cold), 暑 (shǔ, summer-heat), 濕 (shī, damp), 燥 (zào, dryness), 火 (huǒ, fire). Each has organ-system correspondence (wind→Liver; cold→Kidney; damp→Spleen; dryness→Lung; fire→Heart). The six-excesses framework is the foundational climatic-pathogenic system; see _climates.typ_.
@@ -34,6 +36,16 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *歸經 (guī jīng, "channel-entry / channel-affinity")* — the specification, for each drug, of which of the twelve channels (jīng-luò) it preferentially affects. The four parameters of Chinese pharmacology are 性 + 味 + 升降浮沉 + 歸經.
 
+*十八反 (shíbā fǎn, "the eighteen antagonisms")* — the canonical list of *eighteen drug pairs held to counteract one another*, transmitted as a mnemonic verse and standard in formula pedagogy. The line concerning ginseng runs *諸參辛芍叛藜蘆* — "all the _shen_ [ginseng and its namesakes], _xin_ [asarum], and _shao_ [peony] rebel against 藜蘆 (_Veratrum_)." Together with the 十九畏 it constitutes classical 配伍禁忌 (combining prohibitions). See _korean-ginseng.typ_.
+
+*十九畏 (shíjiǔ wèi, "the nineteen mutual fears")* — the companion canonical list of *nineteen pairs in which one drug "fears" (畏) another*, i.e. has its action blunted or distorted by it. Examples: *人參畏五靈脂* (ginseng fears _Trogopterus_ dung) and *丁香畏郁金* (clove fears turmeric). See _korean-ginseng.typ_, _cloves.typ_.
+
+*暑傷氣 (shǔ shāng qì, "summer-heat damages qi")* — the classical doctrine that profuse sweating in humid heat *depletes qi and fluids*, leaving the exterior hot while the interior becomes depleted and cold — hence the counterintuitive propriety of *warming tonification in summer*. The rationale for 生脈散, the 清暑益氣 formula class, and the Korean *삼계탕* custom. See _korean-ginseng.typ_, _climates.typ_.
+
+*以熱治熱 (yǐ rè zhì rè, "treat heat with heat")* — Korean *이열치열*: the principle, following from 暑傷氣, that hot tonifying food and drink are appropriate in the hottest season, because the depletion to be corrected is interior and cold. Not folk paradox but a derived classical rule; the canonical instance is ginseng-chicken soup eaten on the three hottest days of the Korean year. See _korean-ginseng.typ_, _climates.typ_.
+
+*發物 (fā wù, "provoking foods")* — the living folk-clinical category of foods held to *provoke or re-surface latent disease* — especially skin disease, suppuration, allergy, and inflammatory conditions — and therefore avoided during such illness and after surgery. Fish, shellfish, lamb, and certain pungent vegetables are the usual members. Still widely observed in Chinese practice; a *folk-clinical rather than strictly textual* category, and the close analogue of the Tibb *muḥarrik al-akhlāṭ* (humour-stirring) caution and of the Ayurvedic contraindication of fish in _kuṣṭha_. See _fish.typ_, _tilapia.typ_.
+
 *寒熱虛實 (hán-rè xū-shí)* — the four-axis pattern descriptor: cold-vs-hot and vacuity-vs-excess. Combined with the six channels and the five-phase framework to generate specific patterns.
 
 === Pharmacological framework — the four parameters of a Chinese drug
@@ -44,11 +56,21 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *歸經 (guī jīng)* — channel affinity; see above.
 
+*淡味滲泄 (dàn wèi shèn xiè, "the bland flavour percolates and discharges")* — the classical principle that *blandness is a positive pharmacological category*, not merely an absence of taste: a bland drug drains dampness through urination. 淡 is one of the two flavours (with 澀, astringent) added to the canonical five. The principle governs the two great bland-sweet damp-drainers, 茯苓 and 薏苡仁 — and it has *no counterpart among the six Ayurvedic rasas*, a genuine structural asymmetry between the two pharmacologies. See _fuling.typ_, _coix.typ_.
+
 *升降浮沉 (shēng-jiàng fú-chén, "ascending-descending floating-sinking")* — the directional / depth tendency of a drug's action. _Shēng_ (ascending) and _fú_ (floating) drugs act outward and upward; _jiàng_ (descending) and _chén_ (sinking) drugs act inward and downward. The fourth Chinese pharmacological parameter.
 
 === Action vocabulary (representative — not exhaustive)
 
 *補 (bǔ)* — tonify; the action of building / supplementing what is deficient. 補氣 (qi-tonifying), 補血 (blood-tonifying), 補陰 (yin-tonifying), 補陽 (yang-tonifying).
+
+*大補元氣 (dà bǔ yuán qì, "greatly tonifies the source qi")* — the strongest tonifying action in the pharmacy, reserved for *氣虛欲脫* (qi vacuity verging on collapse): cold sweat, cold limbs, a pulse 微欲絕 ("faint and about to expire"). Effectively the signature of a single drug, 人參 — whence *獨參湯* (Dú Shēn Tāng, "Ginseng Alone Decoction"), ginseng in large dose as a *single-herb* emergency formula. Distinguish from ordinary 補氣. See _korean-ginseng.typ_.
+
+*回陽救逆 (huí yáng jiù nì, "restores yang and rescues from collapse")* — the shock-therapy action category: for yang collapse with cold limbs, faint pulse, and clouded consciousness. The canonical drugs are 附子 (aconite) and 乾薑, with 人參 added in 四逆加人參湯 and 參附湯. See _korean-ginseng.typ_, _ginger.typ_.
+
+*安神益智 (ān shén yì zhì, "calms the spirit and benefits the wits")* — the paired spirit-settling and cognition-supporting action; the register of 歸脾湯 and 天王補心丹, and the 中醫 counterpart of the Ayurvedic _medhya_ + _manaḥ-praśamana_ pairing. See _korean-ginseng.typ_, _fuling.typ_.
+
+*生津止渴 (shēng jīn zhǐ kě, "generates fluids and allays thirst")* — the fluid-restoring action, for 消渴 (consumptive thirst) and for heat- or summer-damage to fluids; the register of 生脈散 and 白虎加人參湯. See _korean-ginseng.typ_, _schisandra.typ_, _pear.typ_.
 
 *瀉 (xiè)* — drain / purge; the action of expelling what is excess. Often paired dialectically with 補.
 
@@ -104,6 +126,12 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *透疹 (tòu zhěn)* — promotes the eruption of rashes (as in measles — the supportive use, helping the rash come out rather than suppressing it).
 
+*滲濕 (shèn shī, "leach out dampness")* — percolates/leaches accumulated dampness out via urination; a finer-grained companion to 利水 (promotes urination generally), the two combining in the compound action 利水滲濕 (lì shuǐ shèn shī) that is the signature action of both 茯苓 (fúlíng) and 薏苡仁 (yìyǐrén) — see _fuling.typ_, _coix.typ_.
+
+*除痺 (chú bì)* — dispels Bì-obstruction (damp-type joint pain); see _coix.typ_.
+
+*排膿 (pái nóng)* — expels pus; typically paired with 清熱 as 清熱排膿 (clears heat and expels pus), the signature action of raw 薏苡仁 in Lung- and intestinal-abscess formulas. See _coix.typ_.
+
 === Drug-form vocabulary
 
 *生 (shēng) vs. 熟 (shú), 炙 (zhì), 炮 (páo), 炒 (chǎo), 煨 (wēi), 蒸 (zhēng), 烤 (kǎo)* — the saṃskāra-class processing modifiers. *生* (raw); *熟* (cooked / prepared); *炙* (honey-fried, sometimes wine-fried); *炮* (blast-fried, charred); *炒* (stir-fried); *煨* (roasted in ashes); *蒸* (steamed); *烤* (baked). Each modifier yields a distinct drug-form. See _ginger.typ_, _chinese-licorice.typ_, _rehmannia.typ_ for the foundational examples.
@@ -131,6 +159,14 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 *醋 (cù)* — vinegar; both an ingredient and a processing medium for some drugs.
 
 *炮製 (páo zhì)* — drug processing; the general term for the saṃskāra-modifying procedures.
+
+*老火湯 (lǎo huǒ tāng, "old-fire soup")* — the Cantonese tradition of *long-simmered medicinal soups* (two to four hours or more), in which herb-and-meat combinations are cooked down into a daily dietetic preparation; the principal vehicle by which 藥食同源 drugs such as 茯苓, 薏苡仁, 山藥, and 蓮子 are actually consumed in southern China. See _fuling.typ_, _coix.typ_.
+
+*糖水 (táng shuǐ, "sugar water")* — the Cantonese and Hong Kong class of *sweet dessert soups*, many of them explicitly dietetic (mung bean for heat, Job's tears for damp, black sesame for the Kidney). The dessert-and-medicine overlap is the 藥食同源 principle in its most everyday form. See _coix.typ_, _mung-dhal.typ_.
+
+*涼茶 (liáng chá, "cooling tea")* — the southern-Chinese (especially Cantonese) class of *cooling herbal decoctions* drunk to clear heat and damp in a hot-humid climate, sold in dedicated herbal-tea shops and, now, in bottles. Chrysanthemum, honeysuckle, and _Prunella_ are characteristic ingredients; the register in which 上火 is treated. See _chrysanthemum.typ_, _climates.typ_.
+
+*四神湯 (sì shén tāng, "four spirits soup")* — the Fujianese-Taiwanese household soup of four gentle Spleen-supporting, damp-draining ingredients — *茯苓* (or *芡實*, Euryale seed), *蓮子* (lotus seed), *山藥* (Chinese yam), and *薏苡仁* (Job's tears) — usually simmered with pork. One of the clearest living instances of a formula-logic dish: the combination builds the 補中有瀉 (tonify-with-drainage) balance into a food. See _fuling.typ_, _coix.typ_.
 
 *工夫茶 (gōng fu chá, "kung-fu tea")* — the small-cup, short-steep, high-leaf-ratio brewing tradition of Fujian / Guangdong / Taiwan; canonical for oolong and aged tea preparations.
 
@@ -170,7 +206,11 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *臟躁 (zàng zào, "restless organ disorder")* — the classical anxious-distressed pattern of women, mapped to modern depression / hysteria-spectrum; the indication for 甘麥大棗湯.
 
-*痺 (bì)* — obstruction-pattern joint disease; modern rheumatoid arthritis and similar.
+*痺 (bì)* — obstruction-pattern joint disease; modern rheumatoid arthritis and similar. *濕痺 (shī bì)* — the damp sub-type, with heaviness and swelling; the canonical 薏苡仁 indication (see _coix.typ_).
+
+*瘴氣 (zhàng qì, "miasmal qi")* — the classical term for the *damp-heat miasmal illness of hot southern regions* (Lingnan, Jiaozhi, and the far south generally), covering what modern medicine would distribute across malaria, dysentery, and other tropical febrile disease. Historically the dominant medical anxiety of northerners campaigning or posted south; the setting of the Ma Yuan / 薏苡明珠 episode. See _coix.typ_, _climates.typ_.
+
+*上火 (shàng huǒ, "rising fire")* — the living folk-dietetic complaint of *heatiness*: sore throat, mouth ulcers, red eyes, nosebleed, constipation, irritability, attributed to heating foods, weather, or overwork. Not a classical textual diagnosis but one of the most-used everyday health categories in Chinese households, and the register in which chrysanthemum tea, 涼茶, and similar cooling drinks are reached for. See _chrysanthemum.typ_.
 
 === Classical source-texts
 
@@ -245,6 +285,36 @@ See _garlic.typ_.
 
 *梨 (lí)* — pear (_Pyrus_ spp.); a *deeply classical* fruit-drug: cool, sweet, Lung-and-Stomach, the paradigmatic *清熱潤肺* (clear-heat, moisten-Lung), *生津止渴*, and *化痰止咳* fruit for dry cough and autumn dryness (秋燥). Cultivar-names *雪梨 (snow pear), 鴨梨 (duck pear), 沙梨 (sand pear, _P. pyrifolia_)*; the classic preparations *秋梨膏 (qiūlígāo,* autumn-pear cough syrup), *川貝燉梨* (pear stewed with Fritillaria), *冰糖雪梨* (rock-sugar snow-pear). See _pear.typ_.
 
+*人參 / 人参 (rénshēn)* — ginseng (_Panax ginseng_), the root; _Shennong Bencao Jing_ 上品 and the *archetype of the 補氣 category*. Sweet and slightly bitter, slightly warm (微溫), entering Spleen, Lung, Heart (and Kidney in modern sources); the drug of 大補元氣, 補脾益肺, 生津止渴, and 安神益智. The name is *人* ("human") + 參, recording the *anthropomorphic forked root* — a classical doctrine-of-signatures grading criterion, not a pharmacological variable. Classically *人參反藜蘆* (十八反) and *人參畏五靈脂* (十九畏); the *蘆頭* (rhizome neck) is removed as emetic. *Chinese drug-forms:* *生曬參* (sun-dried), *紅參* (steamed = red, warmer and stronger), *糖參 / 白參*, *人參鬚* (fine rootlets, weak and cheap), *野山參* (wild), *林下參* (forest-grown). Premium origin 吉林 / 長白山. See _korean-ginseng.typ_ for the full treatment and the Korean drug-form system.
+
+*參 (shēn) — the root-drug suffix, and a standing disambiguation.* 參 is *not* a word meaning "ginseng": it is a suffix borne by many tonic-and-medicinal roots, several *botanically unrelated* to _Panax_ and to each other. *Same genus, different drugs:* *西洋參 (xīyángshēn,* American ginseng, _P. quinquefolius_ — *cool* and yin-fluid-tonifying, the thermal *opposite* of 人參); *三七 / 田七 (sānqī / tiánqī,* _P. notoginseng_ — a blood-mover and bleeding-stopper). *Different families entirely:* *黨參 (dǎngshēn,* _Codonopsis pilosula_ — the mild, cheap qi-tonic substitute for ginseng, lacking its emergency action); *太子參 (tàizǐshēn,* _Pseudostellaria heterophylla_ — gentle qi-and-yin tonic for children); *丹參 (dānshēn,* _Salvia miltiorrhiza_ root — blood-invigorator, see _sage.typ_); *玄參 (xuánshēn,* _Scrophularia_); *苦參 (kǔshēn,* _Sophora flavescens_ — bitter-cold damp-heat drug). See _korean-ginseng.typ_.
+
+*隔水燉 (gé shuǐ dùn, "double-boiled over water")* — the classical gentle-extraction method for costly tonic drugs: the drug is sealed in a covered vessel set inside a pot of simmering water, so it is never boiled hard and nothing is lost to a shared decoction. The standard preparation for ginseng; *含服* (holding a slice in the mouth to suck) is the other reserved-drug method. See _korean-ginseng.typ_.
+
+*茯苓 (fúlíng)* — Poria (_Wolfiporia_ / _Poria cocos_), the dried sclerotium of a pine-root fungus; _Shennong Bencao Jing_ 上品 (superior grade), sweet-and-*bland* (see 淡味滲泄), neutral, and by formula-frequency one of the most-used drugs in the pharmacopoeia — classically 平和 ("harmonious," rarely contraindicated). Early sources also write *伏靈 / 伏苓 (fúlíng, "crouching numen")*, reflecting the classical folk account that the sclerotium is the pine's vital essence congealed underground; Li Shizhen collates it in the _Bencao Gangmu_, and the lore pairs *菟絲* (dodder) visible above with 伏靈 beneath. *Drug-form system* (part-position parallels clinical target):
+- *茯苓个 (fúlíng gè)* — the whole undivided sclerotium.
+- *白茯苓 / 茯苓塊 (bái fúlíng / fúlíng kuài)* — white inner flesh; the standard drug, strongest on 健脾.
+- *赤茯苓 (chì fúlíng)* — the pinkish layer beneath the rind; more draining, less tonifying; for damp-heat.
+- *茯苓皮 (fúlíng pí)* — the outer rind, for *superficial* edema (皮水, "skin-water") — the skin of the drug for the water in the skin.
+- *茯神 (fúshén, "poria-spirit")* — the portion grown around an enclosed pine root, reserved for 寧心安神 (calming the Heart, settling the spirit).
+- *茯神木 (fúshén mù)* — the embedded pine-root core itself; a minor drug for Liver-wind and limb spasm.
+- *朱茯神 / 朱砂拌茯神* — historically 茯神 dusted with *cinnabar (朱砂, mercuric sulfide)*. *A mercury preparation: not to be used*; restricted or prohibited in modern practice. Recorded for textual completeness only.
+See _fuling.typ_.
+
+*猪苓 / 豬苓 (zhūlíng)* — _Polyporus umbellatus_, another sclerotium-forming polypore and the textually fixed *contrast drug* to 茯苓: zhūlíng *drains water more strongly but does not tonify*, while fúlíng drains gently and simultaneously supports the Spleen. The pair appears together in 五苓散 and 豬苓湯 and is the standard teaching example of "draining with support" versus "draining alone." See _fuling.typ_.
+
+*鯽魚 (jìyú)* — crucian carp; a classical _Bencao_ freshwater-fish drug, sweet and neutral, entering Spleen and Stomach, used for 健脾利水 and, canonically, as *鯽魚湯 (jìyú tāng,* crucian-carp soup) — the best-known Chinese *postpartum lactation-and-recovery* food-drug (通乳). Modern households routinely substitute tilapia into this slot, which is how an introduced food acquires traditional standing — observed practice, not classical text. See _fish.typ_, _tilapia.typ_.
+
+*罗非鱼 / 羅非魚 (luófēiyú)* — tilapia; a *phonetic transliteration*, and a 20th-century introduction (_O. mossambicus_ 1957, _O. niloticus_ 1978) with *no Bencao entry*; also marketed as *福寿鱼 (fúshòuyú,* "fortune-and-longevity fish"). See _tilapia.typ_.
+
+*菊 / 菊花 (jú / júhuā)* — chrysanthemum flower (_Chrysanthemum × morifolium_); archaic form *鞠 (jú)*, as in _Shennong Bencao Jing_ (上品). *野菊花 (yějúhuā)* — wild chrysanthemum (_C. indicum_), a separate, more bitter and cold heat-toxin-clearing drug. Premium cultivated grades: *杭菊 (Hángjú)*, *滁菊 (Chújú)*, *亳菊 (Bójú)*, *貢菊 (Gòngjú,* "tribute chrysanthemum"). *菊花酒 (júhuājiǔ)* — chrysanthemum wine, the Double Ninth Festival (*重陽節, Chóngyáng Jié*) seasonal preparation. *Caution*: *not* to be confused with European chamomile, rendered in modern Chinese as *洋甘菊 (yáng gānjú, "foreign sweet-chrysanthemum")* — the 洋-prefix marks the Western import, parallel to 洋艾/苦艾 for wormwood (above). Nor with the unrelated cultural trope *四君子 (sì jūnzǐ, "Four Gentlemen")* — plum, orchid, bamboo, and chrysanthemum in literati painting/poetry — which shares its name by coincidence with, but is entirely distinct from, the formula *四君子湯 (Sì Jūnzǐ Tāng)* below. See _chrysanthemum.typ_, _chamomile.typ_.
+
+*四君子湯 (Sì Jūnzǐ Tāng, "Four Gentlemen Decoction")* — the foundational Spleen-qi-tonifying formula (人參, 白朮, 茯苓, 炙甘草), _Tài Píng Huì Mín Hé Jì Jú Fāng_ (1108). See _fuling.typ_; disambiguate from the painting/poetry 四君子 trope above.
+
+*薏苡仁 / 薏苡 / 薏米 / 薏仁 (yìyǐrén / yìyǐ / yìmǐ / yìrén)* — Job's tears seed (_Coix lacryma-jobi_ var. _ma-yuen_); _Shennong Bencao Jing_ 上品; sweet-and-*bland* (see 淡味滲泄), cool, entering Spleen, Stomach, and — distinctively — *Lung*, which underwrites its signature 清熱排膿 (heat-clearing, pus-expelling) action in lung and intestinal abscess. Classically noted as *mild and slow*, requiring larger doses (up to 30 g) and time to act; *妊娠慎用* (caution in pregnancy) — a classical caution later supported by modern uterine-stimulant findings. Drug-forms: *生薏苡仁 (shēng yìyǐrén)* raw, for damp-draining and pus-expelling; *炒 / 麩炒薏苡仁 (chǎo / fū-chǎo yìyǐrén)* dry- or bran-fried, for Spleen-strengthening and checking diarrhoea (健脾止瀉).
+
+*薏苡明珠 (yìyǐ míngzhū, "Job's tears [taken for] bright pearls")* — the idiom, still current, for *being falsely accused through malicious misconstruction of an innocent act*; from the Eastern Han general *馬援 (Ma Yuan)*, who brought cartloads of Job's tears north from his southern campaign as a remedy against 瘴氣 and was posthumously slandered as having smuggled looted pearls. _Hòu Hàn Shū_, 馬援列傳. The plant's botanical varietal epithet *ma-yuen* commemorates the same general. See _coix.typ_.
+
 == Ayurvedic Dravyaguna (द्रव्यगुण)
 
 === Fundamental concepts
@@ -277,6 +347,10 @@ See _garlic.typ_.
 *गुण / गुणाः (guṇa / guṇāḥ)* — quality; the physical attributes of a substance. Classical list of twenty (in pairs of opposites): guru-laghu (heavy-light), snigdha-rūkṣa (unctuous-dry), uṣṇa-śīta (hot-cold, in the _guṇa_ sense — distinct from vīrya), mṛdu-tīkṣṇa (soft-sharp), manda-tīkṣṇa, sthira-cala (stable-mobile), sūkṣma-sthūla (subtle-gross), viśada-picchila (clear-slimy), and so on. The principal pharmacologically-active guṇas vary by drug.
 
 *वीर्य (vīrya, "potency")* — the energetic potency of a drug, on a binary axis: उष्ण (uṣṇa, heating / warming) or शीत (śīta, cooling). Some traditions recognize an eight-vīrya extended set (uṣṇa, śīta, snigdha, rūkṣa, viśada, picchila, mṛdu, tīkṣṇa) — the "eight extended vīryas" — but the two-vīrya hot-cold framework dominates classical references.
+
+*अनुष्णाशीत (anuṣṇāśīta, "neither heating nor cooling")* — the dravyaguna category for *temperate / neutral vīrya*, used where a drug sits on neither side of the uṣṇa-śīta axis. The exact counterpart of the Chinese 平 (píng, neutral) property, and the term this book uses when rendering a neutral Chinese drug onto Ayurvedic axes. See _fuling.typ_.
+
+*अव्यक्त रस / अल्प रस (avyakta rasa / alpa rasa)* — "indistinct" / "scant" taste; the dravyaguna devices for a substance of faint or barely-perceptible flavour. *Note the structural asymmetry they expose:* these describe the *absence* of a flavour, whereas the Chinese 淡 (bland) is a *positive* pharmacological category with its own drainage action (淡味滲泄). The six rasas have no equivalent of "drains because bland." See _fuling.typ_, _coix.typ_.
 
 *विपाक (vipāka, "post-digestive transformation")* — the post-digestive (post-metabolic) taste; how the drug's rasa transforms after assimilation. Three vipākas: madhura (sweet — for sweet, salty, and sour rasas), amla (sour — though rarely cited), kaṭu (pungent — for pungent, bitter, and astringent rasas). The vipāka is independent of the predigestive rasa: e.g. ginger has _kaṭu rasa_ but _madhura vipāka_ — a counterintuitive feature with constitutional implications.
 
@@ -325,6 +399,10 @@ See _garlic.typ_.
 *रसायन (rasāyana)* — rejuvenative; the class of drugs and procedures aimed at longevity, anti-aging, vitalization. Caraka Cikitsāsthāna 1 (the foundational rasāyana chapter). Foundational drugs: aśvagandhā, śatāvarī, āmalakī, yaṣṭimadhu, triphalā, Cyavanaprāśa, Brāhmī.
 
 *वाजीकरण (vājīkaraṇa)* — virilification / aphrodisiac; the class concerned with reproductive vigor. Caraka Cikitsāsthāna 2.
+
+*जीवनीय (jīvanīya, "life-promoting")* — the classical category of *life-giving, vitality-restoring* drugs; Caraka names a *jīvanīya gaṇa*, a group of ten such herbs. Distinguished from _rasāyana_ (rejuvenation over time) by its sense of *sustaining or restoring life itself* — the register into which the 大補元氣 action of ginseng in collapse most naturally translates. See _korean-ginseng.typ_.
+
+*श्रमहर / क्लमहर (śrama-hara / klama-hara)* — relieving physical fatigue (_śrama_) and lassitude or exhaustion (_klama_); the dravyaguna register of the modern "asthenia and fatigue" indication. See _korean-ginseng.typ_.
 
 *बल्य (balya)* — strengthening.
 
@@ -376,6 +454,14 @@ See _garlic.typ_.
 
 *दाह-प्रशमन (dāha-praśamana)* — relieves burning sensations.
 
+*शूल-प्रशमन (śūla-praśamana)* — relieves colicky, griping, spasmodic pain (_śūla_ being the classical term for such pain). The signature reasoned action of chamomile and the register of the infant-colic and menstrual-cramp uses; converges with the Tibb _musakkin li-l-alam_ and the 中醫 理氣止痛. See _chamomile.typ_.
+
+*शिरःशूल-हर (śiraḥ-śūla-hara)* — relieves headache; in a Pitta/heat-pattern reading, the register of cooling head-and-eye drugs. The reasoned rendering of the 中醫 平肝 headache indication. See _chrysanthemum.typ_.
+
+*शोथहर (śothahara)* — reduces _śotha_ (edema, swelling); the anti-edema action, converging with 中醫 消腫 and Tibb use in _istisqā'_ (dropsy). See _fuling.typ_, _coix.typ_.
+
+*आर्तव-जनन / रजः-प्रवर्तन (ārtava-janana / rajaḥ-pravartana)* — emmenagogue; promotes menstrual flow. The basis of the pregnancy caution attached to several herbs in this book, and the direct counterpart of the Tibb *mudirr li-l-ḥayḍ*. Note that the genus name _Matricaria_ (< _mātrīx_, "womb") encodes this very action for chamomile. See _chamomile.typ_, _sage.typ_.
+
 *तृष्णा-निग्रहण (tṛṣṇā-nigrahaṇa)* — quenches thirst.
 
 *निद्रा-जनन (nidrā-janana)* — sleep-promoting.
@@ -406,6 +492,8 @@ See _garlic.typ_.
 
 *यूष / यूष्य (yūṣa / yūṣya)* — soup, especially mung-soup or pulse-soup.
 
+*मांस-रस (māṃsa-rasa)* — meat or fish broth; the classical convalescent preparation par excellence, given in Vāta-depletion and post-illness recovery. The direct counterpart of the Tibb *mā' al-samak* (fish broth) and of Chinese convalescent fish soup — a three-way convergence on broth as the food of recovery. See _fish.typ_, _tilapia.typ_.
+
 *स्वरस (svarasa)* — fresh juice.
 
 *कल्क (kalka)* — wet paste (drugs ground with water to a paste).
@@ -429,6 +517,8 @@ See _garlic.typ_.
 *मण्डूर (mandūra)* — iron-rust-calx preparation.
 
 *गुग्गुलु (guggulu)* — Commiphora-resin-based pill formulation class.
+
+*अनुरस (anurasa)* — secondary or trailing taste; the subordinate rasa of a substance, as against its dominant one. Used in this book where a drug's classical attribution gives a primary and a slight taste — e.g. ginseng's madhura with tikta _anurasa_, rendering the Chinese 甘微苦. See _korean-ginseng.typ_.
 
 *अनुपान (anupāna)* — vehicle / adjuvant; the substance with which a medicine is taken (warm water, milk, honey, ghee, wine, etc.). Selection of anupāna affects the action of the principal drug.
 
@@ -525,6 +615,8 @@ See _garlic.typ_.
 
 *वातव्याधि (vāta-vyādhi)* — Vāta disorders (degenerative, neurological, musculoskeletal; many sub-types).
 
+*आमवात (āmavāta)* — the classical joint disease combining _āma_ (metabolic toxin) with Vāta, presenting with migratory painful swollen joints, stiffness, and digestive impairment; broadly mapped to rheumatoid-arthritis-spectrum disease. Distinguished from _sandhi-vāta_ (degenerative/osteoarthritic joint Vāta). The register into which damp-type 濕痺 joint indications are translated. See _ginger.typ_, _coix.typ_.
+
 *कुष्ठ (kuṣṭha)* — chronic skin diseases broadly (eighteen named sub-types in Caraka, the kuṣṭha-ghna drugs being those that act on this broad class).
 
 *अश्मरी (aśmarī)* — urinary stones.
@@ -615,6 +707,12 @@ See _garlic.typ_.
 
 *सेब / सेव (seb / seva)* — apple (_Malus domestica_); a *Persian loan* (from سیب _sīb_), *post-classical* in India (not in the core saṃhitā fruit-lists; cultivated anciently only in the Himalayan/Kashmiri fringe). Reasoned dravyaguna reading: madhura-kaṣāya, śīta, Vāta-aggravating when raw hence best stewed-and-spiced. See _apple.typ_.
 
+*मत्स्य (matsya)* — fish, the general classical category (Caraka Sūtrasthāna 27; Suśruta Sūtrasthāna 46): madhura rasa, guru-snigdha guṇa, uṣṇa vīrya, madhura vipāka; Vāta-pacifying, Kapha- and Pitta-aggravating; _balya_, _bṛṃhaṇa_, _vṛṣya_. Sub-classified by habitat: *नादीमत्स्य (nādī-matsya)* riverine/freshwater — classically the *heavier* type; *समुद्रमत्स्य (samudra-matsya)* marine — the *lighter*. *A standing cross-system divergence:* classical Tibb reverses both judgements, reading fresh fish as *Cold-and-Moist* (not uṣṇa) and *river* fish as the lighter. The canonical *matsya-kṣīra viruddha* (fish with milk) is at Caraka Sūtrasthāna 26. See _fish.typ_, _tilapia.typ_, _salmon.typ_, _sardines.typ_.
+
+*गवेधुका / गवेधु (gavedhukā / gavedhu)* — a grass-grain of the Sanskrit lexicons, identified with *Coix* (Monier-Williams gives _Coix barbata_). *Register matters here:* the name occurs in Vedic/ritual and lexicographic contexts as a wild grain, *not* in a developed dravyaguna monograph — so Job's tears is *named but not pharmacologically elaborated* in Sanskrit, a middle case between classical attestation and total absence, and tiered accordingly. See _coix.typ_.
+
+*छत्राक / कवक (chatraka / kavaka)* — mushrooms/fungi in the saṃhitā dietetics, where they are classed as *heavy and generally unsuitable* food. Noted because the unfavourable classical treatment of fungi means Ayurveda offers *no congenial category* to receive a medicinal fungus such as Poria. See _fuling.typ_.
+
 *नाशपाती (nāshpātī)* — pear (_Pyrus_ spp.); a *Persian loan*, *post-classical* in India. Reasoned reading: madhura-kaṣāya, guru, śīta, Pitta-pacifying and demulcent-yet-astringent, best cooked for cold/Vāta constitutions. See _pear.typ_.
 
 == Traditional Arabic & Islamic Medicine (Ṭibb al-ʿArabī wa-l-Islāmī / Unani)
@@ -700,6 +798,12 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 
 *منفث / مخرج البلغم (munaffith / mukhrij al-balgham)* — expectorant.
 
+*مخرج القيح (mukhrij al-qayḥ)* — pus-expelling; the humoral counterpart of the 中醫 排膿 and of the reasoned Ayurvedic _vraṇa-śodhana_. See _coix.typ_.
+
+*مسكّن / مسكّن للألم (musakkin / musakkin li-l-alam)* — calming, pain-allaying; analgesic, especially of colicky and cramping pain. The Tibb counterpart of _śūla-praśamana_ and of 理氣止痛. See _chamomile.typ_.
+
+*مجفف (mujaffif)* — desiccant; drying of excess moisture in tissues, wounds, and mucosa. Distinguished from *qābiḍ* (astringent/binding) and from *mudirr* (discharge-promoting). See _chamomile.typ_, _fuling.typ_, _sage.typ_.
+
 *مقيء (muqīʾ)* — emetic.
 
 *محرك الباه (muḥarrik al-bāh)* — aphrodisiac.
@@ -743,6 +847,12 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 *جوارش (jawārish)* — a class of *digestive electuaries* (semi-solid stomachic pastes), typically warming-carminative, taken to strengthen digestion; the Unani register in which aromatic spices such as clove (_qaranful_) are canonical. See _cloves.typ_.
 
 *جوشاندة (joshānda)* — decoction.
+
+*مغلي (maghlī)* — a simple hot infusion or boiled preparation; the everyday household form of mild aromatic simples across the Arab world (the form in which *bābūnaj* is actually taken). See _chamomile.typ_.
+
+*روغن (roghan)* — the Unani/Persian class of *medicated oils* (Persian _roghan_, "oil"): e.g. *roghan-i bābūnah* (chamomile oil), the direct continuation of the Galenic infused-oil form _oleum chamomillae_. The Tibb counterpart of the Ayurvedic *taila*. See _chamomile.typ_.
+
+*ماء السمك (māʾ al-samak)* — fish broth; the classical Tibb convalescent preparation for debility, counterpart of the Ayurvedic *māṃsa-rasa*. See _fish.typ_, _tilapia.typ_.
 
 *عرق (ʿarq)* — distillate / hydrosol. Examples: ʿArq-i Yāsamīn (jasmine hydrosol), ʿarq sūs (Egyptian street licorice-decoction).
 
@@ -889,7 +999,13 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 
 *سدهاب (sadhāb)* — *rue* (_Ruta graveolens_); the Mediterranean-Arab classical emmenagogue and abortifacient, with caveats paralleling pennyroyal.
 
-*بابونج (bābūnaj)* — *chamomile* (_Matricaria chamomilla_, _Chamaemelum nobile_); the canonical Tibb digestive-and-calming bitter Asteraceae; the Tibb framework for digestive-bitter Asteraceae generally, applied by extension to other Asteraceae digestives like the South-American _Pluchea sagittalis_ (see _lucera.typ_).
+*بابونج (bābūnaj)* — *chamomile* (_Matricaria chamomilla_, _Chamaemelum nobile_); the canonical Tibb digestive-and-calming bitter Asteraceae; the Tibb framework for digestive-bitter Asteraceae generally, applied by extension to other Asteraceae digestives like the South-American _Pluchea sagittalis_ (see _lucera.typ_). Also *بابونة (bābūna)*, Persian *bābūne*, Urdu *bābūnah* / *gul-e bābūnah*; ultimate etymology *unresolved* (a Persian-mediated route is proposed; a direct derivation from Greek _chamaímēlon_ should not be asserted). *Mizāj:* Hot-and-Dry, 1st degree in the standard placement (2nd in some sources) — *note the divergence from the modern popular reading of chamomile as "cooling,"* which this book flags rather than reconciles. *No Ṭibb al-Nabawī attestation.* See _chamomile.typ_.
+
+*أقحوان (uqḥuwān)* — *a naming trap, recorded as such.* Modern Arabic uses this word for *chrysanthemum*, but in the medieval pharmacological corpus _uqḥuwān_ denotes a *chamomile- or feverfew-class* daisy (_Matricaria_ / _Anthemis_ / _Tanacetum parthenium_ group), *not* the East Asian _Chrysanthemum_ cultigen. Citing Avicenna or Ibn al-Bayṭār _sub voce uqḥuwān_ as Tibb attestation for 菊花 would therefore be a misattribution produced by modern nomenclature. Identification flagged for verification against a specific _al-Jāmiʿ_ edition. See _chrysanthemum.typ_.
+
+*دمعة أيوب (damʿat Ayyūb, "Job's tear")* — *a second naming trap.* The modern scientific-Arabic name for *Job's tears* (_Coix lacryma-jobi_) is a *calque of the European botanical epithet*, coined in modern nomenclature. Because *Ayyūb* (Job) is a Qur'ānic prophet (Qur'ān 21:83–84; 38:41–44), the name can be misread as Prophetic-medical pedigree: *there is none* — the plant is absent from the classical Arabic corpus entirely, and the scriptural resonance is an artefact of translating a 17th–18th-c. European metaphor. See _coix.typ_.
+
+*بلطي (bulṭī) / مشط (mushṭ, "comb")* — tilapia: *bulṭī* the standard modern Egyptian name (today Egypt's most-eaten fish), *mushṭ* the Levantine name (for the comb-like dorsal fin) applied to Sea-of-Galilee tilapia in the "St. Peter's fish" trade register. No species-specific classical monograph has been located; the fish falls under generic *samak al-nahr* (river fish), which in the Avicennan reading is *Cold-and-Moist* and the *lighter*, more digestible class — the inverse of the Ayurvedic reading of riverine fish as heavier. See _tilapia.typ_, _fish.typ_.
 
 *أفسنتين (afsantīn, also afsantīn rūmī)* — *wormwood* (_Artemisia absinthium_); a direct loan from Greek _apsínthion_, and one of the tradition's principal *muqawwī al-maʿida* (stomach-tonic) and hepatic-deobstruent bitters, Hot in the 1st and Dry in the 2nd–3rd degree per Avicenna. Distinct from the native desert Artemisia *شيح (shīḥ)* (_A. herba-alba_, _A. judaica_) and from *درمنة / شيح خراساني (dirmana / shīḥ khurāsānī)*, the Khorasani wormseed (_A. cina_) that yields santonin. A Greco-Arabic (Dioscoridean) drug, *not* a Ṭibb al-Nabawī substance. See _wormwood.typ_.
 
@@ -898,6 +1014,8 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 *جوز (jawz, also jawz shāmī "Levantine walnut")* — walnut (_Juglans regia_); Persian *گردو (gerdū)*. The nut is a Hot brain-and-body tonic and *muqawwī al-bāh*; the green hull *قشر الجوز (qishr al-jawz)* is astringent (*qābiḍ*), anthelmintic (*dāfiʿ li-l-dīdān*), and the classical black hair-*dye* (*ṣābigh*) — the Old-World analogue applied by extension to the American black walnut (_J. nigra_), which is *not* classical in Tibb. See _black-walnut.typ_.
 
 *زبيب / عنب (zabīb / ʿinab)* — raisin / grape (_Vitis vinifera_); the deseeded raisin is *منقّى (munaqqā)*; Persian *انگور (angūr)*, *کشمش (kishmish)*, *مویز (mavīz)*. Hot-Moist (1st degree); a leading *muqawwī al-kabid* (liver tonic), nutritive (*mughadhdhī*), and gentle laxative (*mulayyin*). Strong Ṭibb al-Nabawī register: the Qurʾānic *أعناب (aʿnāb)* and the Prophetic *نبيذ الزبيب (nabīdh al-zabīb)*, non-intoxicating raisin-water. See _raisins.typ_.
+
+*جنسنج / جينسنغ (jinsinj / jīnsinġ)* — *ginseng*; a *modern transliteration*, not a classical drug-name. _Panax ginseng_ is *absent from Avicenna's Qānūn and from Ibn al-Bayṭār's al-Jāmiʿ* — a high-value, slow-growing root consumed close to its source, which never entered the westward trade that carried musk, camphor, cinnamon and rhubarb. Modern Unani has adopted it as a post-classical *muqawwī*; the plausible class-level *badal* within the actual Tibb pharmacopoeia would be the native restorative-aphrodisiac roots *بهمن سرخ / بهمن سفید (bahman surkh / bahman safed)*, *شقاقل (shaqāqul,* _Pastinaca_), and *تودری (tūdarī)*. *No Ṭibb al-Nabawī attestation, and none possible.* See _korean-ginseng.typ_.
 
 *عوسج (ʿawsaj)* — the Arabian desert boxthorn (_Lycium shawii_ / _L. depressum_), a native thorny-shrub congener of the genus _Lycium_, attested in Arabic lexicography and a few hadith as a thorn-plant. A *different species* from the Chinese goji (_L. barbarum_), which has no classical Tibb entry; noted to prevent lending the modern goji a Nabawī pedigree via the congener. See _goji-berry.typ_.
 
@@ -1023,9 +1141,15 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *ἐλελίσφακον / σφάκος (elelísphakon / sphákos)* — *sage* (_Salvia officinalis_ and eastern-Mediterranean sages); Dioscorides' name (III.33), of uncertain pre-Greek origin; modern Greek *φασκόμηλο (faskómilo)* continues it. The Latin genus name _salvia_ is unrelated in form — from _salvus_/_salvēre_ ("to be well," "the healing herb"), cognate with _salvation_/_salve_/_safe_ — and encodes the panacea reputation of the Salernitan maxim (_"Cur moriatur homo cui salvia crescit in horto?"_). See _sage.typ_.
 
-*μῆλον (mêlon) / mālum* — *apple* (_Malus_) and, generically, *tree-fruit / round fruit* in both Greek and Latin — the sense that generated quince (_mēlon kydōnion_), peach (_mālum persicum_, "Persian apple"), apricot (_mālum armeniacum_), citron (_mēlon mēdikon_), and pomegranate (_mālum granatum_). The Latin near-homophony _mālum_ (apple) / _malum_ (evil) is the pun behind the Edenic-apple identification (the Genesis fruit is unnamed). See _apple.typ_.
+*μῆλον (mêlon) / mālum* — *apple* (_Malus_) and, generically, *tree-fruit / round fruit* in both Greek and Latin — the sense that generated quince (_mēlon kydōnion_), peach (_mālum persicum_, "Persian apple"), apricot (_mālum armeniacum_), citron (_mēlon mēdikon_), and pomegranate (_mālum granatum_), and also — via *χαμαίμηλον (chamaímēlon, "ground-apple")*, χαμαί "on the ground" + mêlon — *chamomile*, named for the apple-like scent of its crushed flowers (Dioscorides, Galen). The Latin near-homophony _mālum_ (apple) / _malum_ (evil) is the pun behind the Edenic-apple identification (the Genesis fruit is unnamed). See _apple.typ_, _chamomile.typ_.
 
 *ἄπιον (ápion) / pirum* — *pear* (_Pyrus_); _achrás_ (ἀχράς) the wild pear. Both the Greek and Latin words are probably a *pre-Indo-European Mediterranean substrate borrowing*, shared rather than inherited. Classed cooling-and-astringent, "heavy raw, best cooked" (Galen, Pliny). See _pear.typ_.
+
+*χαμαίμηλον (chamaímēlon, "ground-apple") / ἀνθεμίς (anthemís)* — *chamomile*; χαμαί ("low, on the ground") + μῆλον ("apple"), for the apple-like scent of the crushed flowers — the same μῆλον root as the apple-family names above. Dioscorides (_De Materia Medica_ III) describes several *anthemis* and *chamaímēlon* kinds by flower colour, and *their mapping onto the modern species (_Matricaria chamomilla_, _Chamaemelum nobile_, _Anthemis_ spp.) is not securely resolved* — the ancient terms covered a cluster of similar Asteraceae; flagged rather than tidied. Galen classes chamomile *warm and drying*, and *ἔλαιον χαμαιμήλινον* (Latin _oleum chamomillae_), the infused chamomile oil, is a standard Galenic resolvent-analgesic topical and the ancestor of the Unani *roghan-i bābūnah*. Modern Greek *χαμομήλι (chamomíli)*. See _chamomile.typ_.
+
+*χρυσός + ἄνθεμον (chrysós + ánthemon, "gold-flower")* — the elements of the Linnaean genus *Chrysanthemum* (1753). *A flagged false friend:* Linnaeus founded the name on *Mediterranean* yellow daisies (the "crown daisy" group, now _Glebionis_), not on the East Asian cultivated chrysanthemum, to which later botanists extended it — so the Greek "gold" describes neither the Chinese drug nor its premium *white* medicinal grades, and the Greek name supplies the Chinese plant with no classical pedigree. Cf. _lýkion_/_Lycium_ and _kóïx_/_Coix_. See _chrysanthemum.typ_.
+
+*κόϊξ (kóïx)* — in Theophrastus and other classical authors, an *Egyptian palm* (generally identified as a _Hyphaene_ doum palm). Linnaeus reused the word for the unrelated Asian grass *Coix lacryma-jobi* (Job's tears) — a loose recycling of an available classical name, carrying *no* implication of ancient attestation for the Asian plant. The third of this book's Linnaean false friends, with _Lycium_ and _Chrysanthemum_. See _coix.typ_.
 
 *ἀμάραντος (amárantos, "unfading")* — amaranth; literally "the unfading flower"; the classical Greek-Roman symbol of *immortality* and the source of the Pauline NT _ἀμάραντος_ epithet (1 Peter 1:4, 5:4 — "inheritance unfading," "crown of unfading glory"). The classical Greco-Roman *ornamental* register; the seed-as-food use is American and post-Columbian to the Mediterranean. See _amaranth.typ_.
 
@@ -1041,7 +1165,21 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *Gārlēac (Old English)* — "spear-leek"; _gār_ (spear) + _lēac_ (leek/generic Allium); the Anglo-Saxon etymology of English "garlic." See _garlic.typ_.
 
+*Matricaria (< mātrīx / māter, "womb, mother")* — the Linnaean genus name for *chamomile*, encoding the plant's traditional standing as a *uterine and gynaecological remedy* (emmenagogue) — one of the clearest cases in Western pharmacobotany of a botanical name preserving a classical indication, and one where the etymology and the modern pregnancy caution point the same way. See _chamomile.typ_.
+
+*Tuckahoe / "Indian bread" (English, < Algonquian)* — names applied in North America to edible underground masses: properly the arum root _Peltandra virginica_, extended by settlers to the sclerotia of *_Wolfiporia cocos_* — the *same fungus* as Chinese 茯苓, dug and eaten as a starchy famine food. *Independent convergent ethnomycology, not a transmitted tradition*: the use was alimentary, with none of the Chinese drug's part-splitting or formula pharmacology. See _fuling.typ_.
+
+*China root (radix chinae)* — *a disambiguation, not a synonym*: in 16th–18th-c. European pharmacy "China root" denotes *_Smilax china_*, a sarsaparilla-class drug imported for syphilis, gout, and chronic skin disease. It is *not* Poria (茯苓), and modern English sources that call poria "China root" import a false pedigree. See _fuling.typ_.
+
 *Pluche (eponym)* — Noël Antoine Pluche (1688-1761), French naturalist; eponym of the genus *_Pluchea_* (Asteraceae). See _lucera.typ_.
+
+*πάναξ / πανάκεια (pánax / panákeia, "all-heal")* — πᾶν ("all") + ἄκος ("cure, remedy"); the source of English *panacea*, and in myth *Panákeia*, a daughter of Asclepius and goddess of universal remedy. Linnaeus took it as the genus name *Panax* for ginseng (1753, on the American species). *Note the contrast with this book's Greek-named false friends* (_Coix_, _Chrysanthemum_, _Lycium_): _Panax_ is not an ancient plant-name misapplied to an Asian species but a *deliberate descriptive coinage* asserting the drug's reputation — apt rather than accidental, though "panacea" remains a claim and not a finding. See _korean-ginseng.typ_.
+
+*Mandragora (mandrake)* — the Mediterranean tropane-alkaloid Solanaceae whose *anthropomorphic forked root* made it the Old World's other great man-shaped drug, hedged with harvest taboo and ritual. Recorded here as a *parallel, not a connection*: ginseng (人參, "human root") and mandrake arrive independently at the same signature-reasoning, but there is no historical link, and mandrake is genuinely toxic where ginseng is not. See _korean-ginseng.typ_.
+
+*Adaptogen* — a *20th-century Soviet pharmacological coinage* (Nikolai Lazarev, 1947; elaborated by Israil Brekhman from the 1950s) for substances held to raise nonspecific resistance to stress. *Panax ginseng* was the original and paradigm subject, with eleuthero, schisandra, and rhodiola following. *Not a classical category in any tradition in this book*, and not a regulatory one: useful as a research heuristic, misleading when it recasts a pattern-matched tonic as universally applicable. See _schisandra.typ_, _korean-ginseng.typ_.
+
+*"Siberian ginseng"* — *a misnomer*: the plant is *eleuthero*, _Eleutherococcus senticosus_ (Araliaceae), not a _Panax_ and not a ginseng; the name was popularized through the Soviet adaptogen literature and the supplement trade. See _korean-ginseng.typ_.
 
 *ἀσπάραγος (aspáragos)* — asparagus.
 
@@ -1111,6 +1249,56 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *ふぐ (fugu)* — puffer fish; the deliberately-controlled tetrodotoxin tradition.
 
+*鳩麦 / ハトムギ (hatomugi, "pigeon wheat")* — Job's tears (_Coix lacryma-jobi_) seed; the standard Japanese name and the roasted grain beverage *hatomugi-cha*. Also a major ingredient in Japanese and Korean skincare, on *weak* ("skin-whitening") evidence — flagged as a commercial register. See _coix.typ_.
+
+*ヨクイニン (yokuinin)* — the Sino-Japanese reading of 薏苡仁 (Job's tears), and in Japan the name of a *specific widely used indication*: oral yokuinin preparations are sold over the counter and prescribed for *warts (verruca vulgaris)*, with a modest clinical literature and a proposed immunomodulatory mechanism — a modern Japanese development out of the classical 解毒散結 register. See _coix.typ_.
+
+*茯苓 (ブクリョウ, bukuryō)* — Poria in Kampo, where it is among the most-used drugs (_Goreisan_ 五苓散, _Rikkunshito_ 六君子湯, _Keishibukuryogan_ 桂枝茯苓丸, _Hochuekkito_). See _fuling.typ_.
+
+*菊 (kiku)* — chrysanthemum in Japan: the *imperial emblem* (*菊花紋章, kikka monshō*, the sixteen-petal crest of the Imperial House), the Double-Ninth *菊の節句 (kiku no sekku)* festival, the edible petals *食用菊 (shokuyōgiku)* of autumn cuisine, and the tea *菊花茶 (kikkacha)*. The pharmacological use follows the Chinese; the symbolic and culinary registers are distinctively Japanese. See _chrysanthemum.typ_.
+
+*茼蒿 / 春菊 (shungiku)* — "chrysanthemum greens," the *leaf vegetable* _Glebionis coronaria_ — a *different species* from the medicinal chrysanthemum flower, and a frequent point of confusion. See _chrysanthemum.typ_.
+
+*朝鮮人参 / 高麗人参 (chōsen ninjin / kōrai ninjin)* — ginseng in Japanese, and *the qualifier is obligatory*: in modern Japanese *人参 (ninjin)* alone means *carrot*, the word having been transferred to the European root vegetable on a shape resemblance. A Japanese recipe calling for 人参 wants carrots. Red ginseng is *紅参 (kōjin)*. See _korean-ginseng.typ_.
+
+*イズミダイ (izumidai, "spring sea-bream")* — a Japanese *market euphemism* for tilapia, sold as a sea-bream substitute; recorded because it illustrates tilapia's status as a generic white-fish commodity rather than a culturally situated food. See _tilapia.typ_.
+
+== Korean
+
+_Korean terms used in the entries. The Korean pharmacological tradition (*한의학, hanuihak*, "Eastern medicine") shares the Chinese canon but has its own classical literature and its own materia medica emphases — most of all for ginseng, where Korea is the primary rather than a derivative tradition._
+
+=== Classical source-texts
+
+*동의보감 (Donguibogam, 東醫寶鑑, "Precious Mirror of Eastern Medicine")* — compiled by *허준 (Heo Jun)* and published in *1613*; the foundational Korean medical compendium, synthesizing Chinese sources with Korean practice and native drugs, and inscribed on the UNESCO Memory of the World register. The text in which the Korean handling of 인삼 is codified. See _korean-ginseng.typ_.
+
+*향약집성방 (Hyangyak jipseongbang, 鄉藥集成方, "Compilation of Native Korean Prescriptions")* — 1433, early Joseon; the compendium that established Korean materia medica as a tradition attending to *its own flora* (_hyangyak_, "native drugs") rather than importing Chinese drug-lists wholesale. See _korean-ginseng.typ_.
+
+=== Ginseng vocabulary
+
+*인삼 (insam, 人蔘)* — ginseng (_Panax ginseng_); nationally *고려인삼 (Goryeo insam)*, after the *Goryeo* dynasty (918–1392) — the same dynastic name from which "Korea" derives, so that plant and country share an etymology. See _korean-ginseng.typ_.
+
+*수삼 / 백삼 / 홍삼 / 흑삼 / 태극삼 (susam / baeksam / hongsam / heuksam / taegeuksam)* — the Korean *processing-derived drug-forms*: *수삼* (水蔘) fresh "water ginseng"; *백삼* (白蔘) peeled and sun-dried "white"; *홍삼* (紅蔘) *steamed then dried* "red" — the signature Korean product, read as warmer and more strongly tonifying, and the form whose ginsenoside transformation modern chemistry has documented; *흑삼* (黑蔘) repeatedly steamed "black" (the 九蒸九晒 logic, cf. rehmannia); *태극삼* (太極蔘) briefly scalded, intermediate. A saṃskāra system on a par with 生薑/乾薑 ginger. See _korean-ginseng.typ_, _ginger.typ_, _rehmannia.typ_.
+
+*산삼 / 장뇌삼 (sansam / jangnoesam)* — *wild* mountain ginseng (山蔘), a class apart in rarity and price, and *semi-wild* ginseng sown and left in mountain forest. *심마니 (simmani)* — the wild-ginseng gatherers, who observe ritual preparation and taboo and call out *"심봤다!" (simbwatda,* "I've found ginseng!") on a discovery. See _korean-ginseng.typ_.
+
+*경옥고 (Gyeongokgo, 瓊玉膏, "Jade Spring Paste")* — the great Korean tonic *膏* (paste/electuary): ginseng with fresh rehmannia juice, white poria, and honey, long-decocted to a dense paste and taken by the spoonful as a longevity preparation. Recorded in the _Donguibogam_. See _korean-ginseng.typ_, _rehmannia.typ_, _fuling.typ_, _honey.typ_.
+
+*삼계탕 (samgyetang, 蔘鷄湯)* — ginseng-chicken soup: a young chicken stuffed with ginseng, glutinous rice, jujube, garlic and usually *황기* (astragalus), simmered whole. Eaten on *복날 (boknal)*, the three hottest days of summer, on the 暑傷氣 / *이열치열* reasoning — see those entries and _korean-ginseng.typ_, _astragalus.typ_.
+
+*이열치열 (以熱治熱, iyeolchiyeol, "treat heat with heat")* — the Korean name of the principle behind the 복날 custom; see the Chinese-medicine section entry 以熱治熱.
+
+*홍삼정 (hongsamjeong)* — red-ginseng concentrate, the dominant modern commercial form; *인삼차 (insam-cha)* ginseng tea; *인삼주 (insam-ju)* ginseng liquor; *정과 (jeonggwa)* honey-candied root. *정관장 (Jung Kwan Jang)* — the principal modern brand, descending institutionally from a state ginseng monopoly. Production centres: historically *개성 (Gaeseong)*, today *금산 (Geumsan)*, *강화 (Ganghwa)*, *풍기 (Punggi)*.
+
+=== Other
+
+*황기 (hwanggi)* — astragalus (黃芪); see _astragalus.typ_.
+
+*율무 (yulmu)* — Job's tears (_Coix lacryma-jobi_); *율무차 (yulmu-cha)*, a thick sweetened Job's-tears drink, is a standard Korean traditional beverage, usually taken hot — the roasted/thickened form being the climatically apt adaptation of a cooling grain to a cold-winter zone. See _coix.typ_.
+
+*국화 (gukhwa)* — chrysanthemum; *국화차 (gukhwacha)*, chrysanthemum tea, a standard Korean traditional tea. See _chrysanthemum.typ_.
+
+*복령 (bongnyeong)* — Poria (茯苓) in Korean medicine. See _fuling.typ_.
+
 == Brazilian / Portuguese / Indigenous Amazonian
 
 *Rapadura* — Brazilian / Lusophone artisanal unrefined whole-cane sugar. From Portuguese _rapar_, "to scrape." Closely related to Mexican _piloncillo_, Colombian _panela_, Indian _guḍa_, Chinese _hóngtáng_.
@@ -1137,6 +1325,8 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *Pirarucu* — _Arapaima gigas_; iconic Amazonian freshwater fish.
 
+*Tilápia / tilápia-do-nilo* — tilapia (_Oreochromis niloticus_); now among the largest Brazilian aquaculture products, having *overtaken native species in farmed-fish volume*, and a staple of inland Brazilian cooking (_tilápia na brasa_, _frita_, in _moqueca_). *Also an invasive species* in Brazilian natural waters, with documented displacement of native fish — a conservation concern that stands alongside, and is not cancelled by, the fish's nutritional and economic value. See _tilapia.typ_.
+
 *Tucupi* — fermented manioc juice; Amazonian Tupi cooking foundation.
 
 *Vinho de açaí* — açaí pulp / juice; Northern-Brazilian everyday food.
@@ -1160,6 +1350,8 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 *Coalhada* — Brazilian curd / yogurt.
 
 *Poejo* — Portuguese-Brazilian for *pennyroyal* (_Mentha pulegium_); from Latin _puleium_. Foundational Portuguese-Brazilian folk-medical aromatic; canonical in *chá de poejo* (pennyroyal tea), *açorda à alentejana* (Alentejan bread-soup with garlic, olive oil, water, poejo, and poached egg), and the *resguardo* postpartum register. *Poejo-rasteiro* — prostrate form; *Poejo-do-campo* — regional Brazilian alternative species (_Cunila microcephala_). See _poejo.typ_ for the species-identification disambiguation.
+
+*Camomila (Portuguese)* — chamomile (_Matricaria chamomilla_); one of the most universally known Brazilian-Portuguese household herbs, central to _chá de camomila_ for infant colic, calming, and sleep. See _chamomile.typ_.
 
 *Resguardo (Portuguese)* — postpartum rest period (~30 days); the canonical Iberian-Lusophone postpartum-confinement tradition during which poejo tea, light foods, and rest constitute the recovery regimen.
 
@@ -1322,6 +1514,18 @@ Some convergent concepts mapped across the four major traditions:
 *Universal antidote / theriac*: tiryāq (Arabic) / theriac (English-Latin) / Theriac Andromachi (Roman) / Mithridatium (Pontic Greek) — the cross-cultural concept of a complex compound polypharmaceutical against poison, plague, and humoral disorder; Avicenna gives a substantive Tibb treatment; the Mediterranean-Arabic-European pharmacy preserved the tradition into the 19th c. *Garlic as "Triyāq al-Fuqarāʾ"* — the poor-man's-theriac — is the cross-system class-substitution of a simple-substance for the elaborate compound. See _garlic.typ_.
 
 *Apotropaic substance (against demons, evil spirits, the evil eye)*: bhūtaghna (Sanskrit) / bābūnaj-and-rue (Tibb folk) / garlic-against-vampires (European folk) — the cross-cultural recognition that pharmacologically-potent aromatic-pungent substances carry both medicinal and apotropaic-spiritual significance. Garlic is the most-attested cross-cultural example. See _garlic.typ_.
+
+*Life-restoring in collapse*: 大補元氣, 回陽救逆 (獨參湯, 參附湯) / jīvanīya, ojas-vardhana, prāṇa-restoring / muqawwī al-rūḥ al-ḥaywānī — the category of drugs given when vitality itself is failing, as distinct from ordinary tonification. Ginseng is the cross-system exemplar. See _korean-ginseng.typ_.
+
+*Anthropomorphic-root signature*: 人參 ("human root," the forked root graded by man-likeness) / European *mandrake* (_Mandragora_) — two unrelated traditions investing a man-shaped root with maximal potency and surrounding it with harvest taboo. *Parallel, not connection*; and mandrake is toxic where ginseng is not. See _korean-ginseng.typ_.
+
+*Damp-draining / fluid-discharging*: 利水滲濕 (and the 淡味滲泄 principle) / mūtrala, śothahara / mudirr li-l-bawl, mujaffif / diuretic-and-desiccant. *Note the asymmetry:* the Chinese system makes *blandness itself* a drainage category; the six rasas have no equivalent (only _avyakta/alpa rasa_, the mere absence of taste). See _fuling.typ_, _coix.typ_.
+
+*"Provoking" foods that re-surface latent disease*: 發物 (fāwù) / the classical contraindication of fish and heavy flesh in _kuṣṭha_ and Pitta-inflammatory states / muḥarrik al-akhlāṭ (humour-stirring). Three traditions independently isolate the same clinical caution — that certain rich or "stirring" foods bring latent skin, suppurative, and inflammatory disease to the surface. See _fish.typ_, _tilapia.typ_.
+
+*Convalescent broth*: 魚湯 / 鯽魚湯 (fish soup) / māṃsa-rasa / māʾ al-samak — a clean three-way convergence on *broth as the food of recovery* in Vāta-type or humoral depletion. See _fish.typ_, _tilapia.typ_.
+
+*Pus-expelling / resolving internal suppuration*: 清熱排膿 / vraṇa-śodhana, śothahara / mukhrij al-qayḥ, muḥallil. See _coix.typ_.
 
 *Digestive bitter (post-prandial)*: 健脾消食 / dīpana-pācana / muqawwī al-miʿda / Mediterranean amaro / South-American quitoco-and-aguardiente digestivo — the cross-cultural recognition of bitter-aromatic herbs as constitutionally appropriate post-heavy-meal aids. See _lucera.typ_.
 
