@@ -21,7 +21,22 @@ The build tool is [Typst](https://typst.app/).
 
 ## Architecture
 
-`materia-medica.typ` (root) receives a comma-separated list of entry files via `sys.inputs.files`, then `#include`s each one. The Makefile builds that list from `./materia-medica/*.typ` and passes it at compile time — new entries are picked up automatically, no registration needed.
+Entries are organized into two folders plus three non-entry files:
+
+```
+materia-medica/
+  substances/     ← one file per substance (herb, spice, food, medicinal)
+  formulas/       ← one file per classical formula
+  climates.typ        ← foundational reference (climate frameworks)
+  tibb-al-arabi.typ   ← foundational reference (Greco-Arabic framework)
+  zz-glossary.typ     ← back-matter glossary
+```
+
+`materia-medica.typ` (root) receives **four** comma-separated groups via `sys.inputs` — `reference`, `substances`, `formulas`, `glossary` — and `#include`s each group in that order, emitting a *Substance Entries* and a *Formulas* section divider between them. The Makefile builds the groups by glob (`MM_SUBSTANCES`, `MM_FORMULAS`) and passes them at compile time, so **new entries are picked up automatically — just put the file in the right folder, no registration needed.**
+
+Entry **slugs share one flat namespace** (the site generates one `<slug>.html` per entry); `site/build.py` fails the build on a collision.
+
+**Cross-references between entries are written as bare filenames** in prose (`fuling.typ`), sometimes with the folder for clarity (`substances/fuling.typ`). These are human-readable pointers, not resolved links — nothing in the build turns them into hyperlinks. Do **not** mass-rewrite the corpus's existing bare-filename references into paths; filenames are unique project-wide and the churn would be pure cost.
 
 **Shared library** (`lib/`): `lib/page.typ` — `numbered-footer()` for centered italic page numbers, used by `materia-medica.typ`'s page footer.
 
@@ -39,9 +54,15 @@ The one rule worth repeating here: `site/` holds a *generator*, not a website. *
 
 ## Entry content (`materia-medica/`)
 
-For anything related to `materia-medica/` — creating or editing entries, formatting, sourcing, nomenclature, or any content decisions — **always read and apply [`materia-medica/CLAUDE.md`](materia-medica/CLAUDE.md) first**. It defines the entry template, scholarly standards, language requirements, prabhāva/viruddha/dosage rules, honesty/sourcing standards, and output format.
+Two authoritative specs, by entry kind:
 
-A **`herb-entry` skill** (`.claude/skills/herb-entry/SKILL.md`) automates adding a new substance entry end-to-end (template, glossary update, build, pre-build lint for the common Typst unbalanced-delimiter mistakes) — use it rather than hand-rolling a new entry.
+- **Substance entries** — for anything related to `materia-medica/substances/` or the foundational references: creating or editing entries, formatting, sourcing, nomenclature, or any content decision, **always read and apply [`materia-medica/CLAUDE.md`](materia-medica/CLAUDE.md) first**. It defines the 8-section entry template, scholarly standards, language requirements, prabhāva/viruddha/Tibb/climate/dosage rules, the glossary rule, honesty/sourcing standards, and output format.
+- **Formula entries** — for anything under `materia-medica/formulas/`, **always read and apply [`materia-medica/formulas/CLAUDE.md`](materia-medica/formulas/CLAUDE.md) first**. It defines the formula template (君臣佐使 ingredient roles, mandatory self-contained property summaries, architecture, preparation method, cautions) and inherits the substance-entry rules on honesty, sourcing, footnotes, glossary, and tone.
+
+Two skills automate these end-to-end (template, glossary update, build, pre-build lint for the common Typst unbalanced-delimiter mistakes) — use them rather than hand-rolling an entry:
+
+- **`herb-entry`** (`.claude/skills/herb-entry/SKILL.md`) — a single substance.
+- **`formula-entry`** (`.claude/skills/formula-entry/SKILL.md`) — a classical formula.
 
 ## Maintenance Rules
 

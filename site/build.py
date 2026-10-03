@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Generates the materia medica website from the Typst source entries.
 
-Every substance entry in materia-medica/*.typ is compiled to HTML with
-Typst's own (experimental) HTML backend, then wrapped in this script's page
-template and indexed for client-side search. Nothing under out/ is ever
-committed -- this script is the only source of truth for the generated
-site, and it is meant to be re-run on every push (see
-.github/workflows/pages.yml).
+Every entry -- substances in materia-medica/substances/, formulas in
+materia-medica/formulas/, and the foundational references and glossary at the
+materia-medica/ root -- is compiled to HTML with Typst's own (experimental)
+HTML backend, then wrapped in this script's page template and indexed for
+client-side search. Nothing under out/ is ever committed -- this script is the
+only source of truth for the generated site, and it is meant to be re-run on
+every push (see .github/workflows/pages.yml).
 """
 from __future__ import annotations
 
@@ -21,6 +22,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ENTRIES_DIR = REPO_ROOT / "materia-medica"
+SUBSTANCES_DIR = ENTRIES_DIR / "substances"
+FORMULAS_DIR = ENTRIES_DIR / "formulas"
 FONTS_DIR = REPO_ROOT / "fonts"
 SITE_SRC_DIR = Path(__file__).resolve().parent
 ASSETS_DIR = SITE_SRC_DIR / "assets"
@@ -131,24 +134,57 @@ def first_excerpt(fragment: str, limit: int = 220) -> str:
     return text
 
 
-def category_for(slug: str) -> str:
-    if slug == GLOSSARY_SLUG:
+def category_for(src: Path) -> str:
+    """Category is derived from the source file's folder, with the two
+    foundational references and the glossary special-cased by slug at the
+    materia-medica/ root. Folder-derived means a new formula or substance needs
+    no registration here -- only a genuinely new *kind* of entry does."""
+    parent = src.parent.name
+    if parent == "formulas":
+        return "formula"
+    if parent == "substances":
+        return "entry"
+    if src.stem == GLOSSARY_SLUG:
         return "glossary"
-    if slug in REFERENCE_SLUGS:
+    if src.stem in REFERENCE_SLUGS:
         return "reference"
     return "entry"
 
 
 CATEGORY_LABELS = {
     "entry": "Substance entries",
+    "formula": "Formulas",
     "reference": "Foundational references",
     "glossary": "Glossary",
 }
 
+# Index-page and nav grouping order.
+CATEGORY_ORDER = ("reference", "entry", "formula", "glossary")
+
+
+def entry_sources() -> list[Path]:
+    """All entry sources, in book order: foundational references and the
+    glossary live at the materia-medica/ root, substances and formulas in their
+    own folders. Slugs share one flat namespace (one <slug>.html per entry), so
+    a substance and a formula must not share a filename."""
+    roots = sorted(ENTRIES_DIR.glob("*.typ"))
+    substances = sorted(SUBSTANCES_DIR.glob("*.typ"))
+    formulas = sorted(FORMULAS_DIR.glob("*.typ"))
+
+    seen: dict[str, Path] = {}
+    for src in [*roots, *substances, *formulas]:
+        if src.stem in seen:
+            raise BuildError(
+                f"duplicate entry slug {src.stem!r}: {seen[src.stem]} and {src} "
+                "-- slugs share one flat namespace in the generated site"
+            )
+        seen[src.stem] = src
+    return [*roots, *substances, *formulas]
+
 
 def load_entries(work_dir: Path) -> list[dict]:
     entries = []
-    for src in sorted(ENTRIES_DIR.glob("*.typ")):
+    for src in entry_sources():
         slug = src.stem
         tmp = work_dir / f"_{slug}.raw.html"
         run_typst_html(src, tmp)
@@ -166,7 +202,7 @@ def load_entries(work_dir: Path) -> list[dict]:
             {
                 "slug": slug,
                 "title": title,
-                "category": category_for(slug),
+                "category": category_for(src),
                 "content": fragment,
                 "toc": toc,
                 "excerpt": first_excerpt(fragment),
@@ -278,14 +314,14 @@ def render_entry_page(entry: dict) -> str:
 
 
 def render_index_page(entries: list[dict]) -> str:
-    by_category: dict[str, list[dict]] = {"reference": [], "entry": [], "glossary": []}
+    by_category: dict[str, list[dict]] = {cat: [] for cat in CATEGORY_ORDER}
     for e in entries:
         by_category[e["category"]].append(e)
     for group in by_category.values():
         group.sort(key=lambda e: e["title"].lower())
 
     sections = []
-    for cat in ("reference", "entry", "glossary"):
+    for cat in CATEGORY_ORDER:
         group = by_category[cat]
         if not group:
             continue
@@ -312,7 +348,7 @@ def build(out_dir: Path) -> None:
 
     entries = load_entries(out_dir)
     if not entries:
-        raise BuildError("no materia-medica/*.typ entries found")
+        raise BuildError("no entries found under materia-medica/")
 
     for entry in entries:
         page = render_entry_page(entry)

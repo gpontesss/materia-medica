@@ -2,23 +2,33 @@
 
 This file defines how to help with my personal materia medica. Follow these rules on every entry unless I explicitly override them in a given message.
 
+## Scope of this file
+
+**This file governs substance entries** — `materia-medica/substances/*.typ` and the two foundational reference entries. **Formula entries have their own authoritative spec at [`materia-medica/formulas/CLAUDE.md`](formulas/CLAUDE.md)**, which inherits this file's rules on honesty & sourcing, the glossary, footnote format, and tone, but replaces the 8-section template with a formula-specific one. Use the `formula-entry` skill for those.
+
 ## File structure
 
 ```
-materia-medica/          ← entry files live here
+materia-medica/
+  substances/            ← substance entries live here (one file per substance)
+    wheat.typ
+    milk.typ
+    licorice-root.typ
+  formulas/              ← formula entries (see formulas/CLAUDE.md)
+    CLAUDE.md
+    four-gentlemen-decoction.typ
   climates.typ           ← foundational reference (climate frameworks & world climate taxonomy)
   tibb-al-arabi.typ      ← foundational reference (Greco-Arabic medical framework)
-  wheat.typ
-  milk.typ
-  licorice-root.typ
-  CLAUDE.md
-  zz-glossary.typ        ← back-matter glossary; zz- prefix lands it last in alphabetical ordering
+  CLAUDE.md              ← this file
+  zz-glossary.typ        ← back-matter glossary; zz- prefix lands it last
 materia-medica.typ       ← root document (at repo root, NOT inside materia-medica/)
 ```
 
+The book assembles these as four ordered groups — foundational references, substances, formulas, glossary — with section dividers between the latter two. New files in `substances/` or `formulas/` are picked up automatically by the Makefile's globs; no registration needed. Slugs share one flat namespace across both folders, because the website generates one `<slug>.html` per entry.
+
 **`climates.typ` is a *foundational reference* entry, not a substance entry**: it sets out the Ayurvedic / 中醫 / Greco-Roman / Tibetan climate frameworks and catalogues the world's climate types in those terms. All substance entries' *Climate, Constitution & Regional Diet* sections cite and apply it rather than restating the framework. See the *Climate rule* below.
 
-**Root document** (`materia-medica.typ`, at repo root): sets page size (5×8 in), margins, EB Garamond + Noto Serif Devanagari font stack, a two-column outline on page 1, then loops over and `#include`s every entry file. Entry files are passed at compile time via `sys.inputs.files` (built from `./materia-medica/*.typ` by the Makefile). New entries are picked up automatically.
+**Root document** (`materia-medica.typ`, at repo root): sets page size (5×8 in), margins, EB Garamond + Noto Serif Devanagari font stack, a two-column outline on page 1, then `#include`s the entry files. They arrive at compile time as **four ordered groups** — `sys.inputs.reference`, `substances`, `formulas`, `glossary` — built by the Makefile's globs, with centered *Substance Entries* and *Formulas* divider pages emitted between the groups. New entries are picked up automatically; just put the file in the right folder.
 
 **Entry files** (`materia-medica/<slug>.typ`): one file per substance, named by a short lowercase hyphenated slug (e.g. `licorice-root.typ`, `wheat.typ`). No frontmatter, no `#import` needed — each file starts directly with the top-level heading and flows through the standard template sections using Typst headings (`=`, `==`). Footnotes use `#footnote[...]` inline.
 

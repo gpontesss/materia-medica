@@ -1,11 +1,11 @@
 ---
 name: herb-entry
-description: Create a new substance entry for the comparative materia medica (materia-medica/). Use when the user asks to add, write, or draft a materia-medica entry for a food, herb, spice, or medicinal — e.g. "add a materia medica entry for saffron", "write up nutmeg for the materia medica", "new herb entry: clove". Produces a Typst entry file following the project's scholarly template, updates the glossary, and builds the PDF.
+description: Create a new substance entry for the comparative materia medica (materia-medica/substances/). Use when the user asks to add, write, or draft a materia-medica entry for a food, herb, spice, or medicinal — e.g. "add a materia medica entry for saffron", "write up nutmeg for the materia medica", "new herb entry: clove". Produces a Typst entry file following the project's scholarly template, updates the glossary, and builds the PDF. For a classical formula (decoction, powder, pill), use formula-entry instead.
 ---
 
 # herb-entry — add a materia medica entry
 
-Create a new substance entry in `materia-medica/` that conforms to the project's scholarly standards.
+Create a new substance entry in `materia-medica/substances/` that conforms to the project's scholarly standards.
 
 ## Step 0 — Read the rules first (mandatory)
 
@@ -18,7 +18,7 @@ Before writing anything, read **`materia-medica/CLAUDE.md`**. It is the authorit
 - Honesty & sourcing standards, output format (footnotes), tone
 
 Also skim one or two existing entries that resemble the new substance, to match register and structure:
-- A classical, fully-attested drug: `materia-medica/licorice-root.typ`, `ginger.typ`, `honey.typ`
+- A classical, fully-attested drug: `materia-medica/substances/licorice-root.typ`, `ginger.typ`, `honey.typ`
 - A reasoned-only / New-World or East-Asian item: `acai.typ`, `guarana.typ`, `green-tea.typ`
 - Foundational references cited by every entry: `tibb-al-arabi.typ`, `climates.typ`, `zz-glossary.typ`
 
@@ -28,8 +28,8 @@ Pin down exactly which substance and which drug-form(s) before drafting (species
 
 ## Step 2 — Pick the slug and create the file
 
-- Slug = short lowercase hyphenated name (e.g. `saffron.typ`, `black-pepper.typ`). Check it doesn't already exist in `materia-medica/`.
-- The file lives at `materia-medica/<slug>.typ`. **No** `#import`, no frontmatter — it starts directly with the top-level heading `= Substance Name` and flows through the template using Typst headings (`=`, `==`, `===`).
+- Slug = short lowercase hyphenated name (e.g. `saffron.typ`, `black-pepper.typ`). Check it doesn't already exist **anywhere** — slugs share one flat namespace across `materia-medica/substances/`, `materia-medica/formulas/`, and the three root files, because the site emits one `<slug>.html` per entry.
+- The file lives at `materia-medica/substances/<slug>.typ`. **No** `#import`, no frontmatter — it starts directly with the top-level heading `= Substance Name` and flows through the template using Typst headings (`=`, `==`, `===`).
 - New files are picked up automatically by the Makefile glob; no registration needed.
 
 Template skeleton (see `materia-medica/CLAUDE.md` for the full section spec — do not skip sections; mark genuinely-inapplicable ones as such rather than padding):
@@ -89,7 +89,7 @@ Confirm it compiles cleanly to `out/materia-medica.pdf` and fix any Typst errors
 **Pre-build check (run this first — it catches most failures before compiling):** scan each new file for lines with an odd number of unescaped `*` (unbalanced bold), the single commonest cause of `error: unclosed delimiter`:
 
 ```sh
-awk '{ l=$0; gsub(/\\\*/,"",l); n=gsub(/\*/,"*",l); if (n%2==1) print FILENAME":"NR": ("n") "$0 }' materia-medica/<slug>.typ
+awk '{ l=$0; gsub(/\\\*/,"",l); n=gsub(/\*/,"*",l); if (n%2==1) print FILENAME":"NR": ("n") "$0 }' materia-medica/substances/<slug>.typ
 ```
 
 Also grep for `\*/` and `/\*` (see first gotcha). Fix everything these flag, then `make materia-medica`.

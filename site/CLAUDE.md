@@ -4,7 +4,7 @@ This file defines how the `site/` generator works and how the generated pages mu
 
 ## What this is, and the one rule that governs everything else
 
-`site/` is a **generator**, not a website. It compiles `materia-medica/*.typ` to HTML with Typst's own HTML backend and wraps the result in a page template. **The generated HTML is never hand-written and never committed.** `out/site/` is gitignored and rebuilt from the Typst sources every time — locally via `make site`, and in CI via `.github/workflows/pages.yml` on every push that touches `materia-medica/**`, `fonts/**`, or `site/**`.
+`site/` is a **generator**, not a website. It compiles the project's Typst entries — `materia-medica/substances/*.typ`, `materia-medica/formulas/*.typ`, and the foundational references and glossary at the `materia-medica/` root — to HTML with Typst's own HTML backend and wraps the result in a page template. **The generated HTML is never hand-written and never committed.** `out/site/` is gitignored and rebuilt from the Typst sources every time — locally via `make site`, and in CI via `.github/workflows/pages.yml` on every push that touches `materia-medica/**`, `fonts/**`, or `site/**`.
 
 Consequence: to change anything about how an entry looks or behaves on the web — layout, typography, search, navigation — edit `site/build.py` and/or `site/assets/*`, then rebuild. Never patch `out/site/*.html` directly; it will be silently discarded on the next build.
 
@@ -20,17 +20,19 @@ site/
     nav.js            # A-Z entry switcher + per-entry section drawer (every page)
 ```
 
-Build output (`out/site/`, gitignored): one `<slug>.html` per `materia-medica/*.typ` file, `index.html`, `search-index.json`, `nav-index.json`, copies of the three asset files, and `fonts/*.ttf`.
+Build output (`out/site/`, gitignored): one `<slug>.html` per entry source, `index.html`, `search-index.json`, `nav-index.json`, copies of the three asset files, and `fonts/*.ttf`.
+
+**Entry discovery and the flat slug namespace** (`entry_sources`): sources are collected in book order — `materia-medica/*.typ` (the references and glossary), then `substances/*.typ`, then `formulas/*.typ`. Pages are emitted as `<slug>.html` with **no folder in the output path**, so slugs must be unique across all three locations; `entry_sources` raises a `BuildError` naming both files if two collide, rather than letting one silently overwrite the other.
 
 ## Build pipeline (`site/build.py`)
 
-For each `materia-medica/*.typ` file, in order:
+For each entry source, in order:
 
 1. `typst compile --features html --format html --font-path ./fonts <file> <tmp>.html` — Typst's HTML backend is experimental but produces clean semantic HTML (`<h2>`/`<h3>`/`<h4>` for `=`/`==`/`===`, `<em>`/`<strong>`, footnotes as `<a role="doc-noteref">` + an endnotes `<section>`). Entry files compile standalone — no cross-file `#include`/`#ref`/image dependencies — so this never needs to go through the PDF's `materia-medica.typ` root document.
 2. Extract the `<body>…</body>` fragment (`BODY_RE`).
 3. **Demote every heading by one level** (`demote_headings`): Typst's top-level `=` heading compiles to `<h2>`, because the HTML backend's own document title/heading conventions assume it isn't the page's only heading. Since each entry page *is* single-subject, shifting `h2→h1, h3→h2, h4→h3` makes the entry title the page's one true `<h1>`. The corpus never uses more than `===` (three levels), so this never needs to go past `h3`.
 4. **Inject heading `id`s and build a table of contents** (`add_heading_ids_and_toc`): every heading gets a slugified, de-duplicated `id` (for deep links); the TOC is built from the **top two heading levels actually present** in that entry (usually h1+h2), not a fixed level — so a short reference entry's TOC doesn't over-nest.
-5. Title = the text of the first heading (plain-text, tags stripped), category = `category_for(slug)`: `zz-glossary` → `"glossary"`, `{climates, tibb-al-arabi}` → `"reference"`, everything else → `"entry"`. This mirrors `materia-medica/CLAUDE.md`'s own distinction between substance entries and foundational-reference entries — if a new foundational-reference entry is added there, add its slug to `REFERENCE_SLUGS` here too.
+5. Title = the text of the first heading (plain-text, tags stripped), category = `category_for(src)` — derived from the source file's **folder**, not a hardcoded list: `formulas/` → `"formula"`, `substances/` → `"entry"`, and at the `materia-medica/` root `zz-glossary` → `"glossary"` and `{climates, tibb-al-arabi}` → `"reference"`. Folder-derived means adding a substance or formula needs **no** registration here; only a genuinely new *kind* of entry does. If a new foundational-reference entry is added at the root, add its slug to `REFERENCE_SLUGS`. `CATEGORY_ORDER` fixes the index/nav grouping order (references → substances → formulas → glossary) and `CATEGORY_LABELS` their headings.
 6. Excerpt = first `<p>` text, truncated (used only in the index cards' hover text is gone now — currently used in search-result snippets when the query matches the title rather than the body).
 
 Then `build()` writes: one page per entry (`render_entry_page`), `index.html` (`render_index_page`), `search-index.json` (full plain text per entry — this is what powers full-text search), and `nav-index.json` (slug/title/category only, deliberately small so the A-Z switcher opens instantly without waiting on the full-text payload).
@@ -51,7 +53,7 @@ Deliberately **takes its family and relative proportions from the Typst PDF** (`
 ## Layout
 
 ### Index page (`render_index_page`)
-A plain, dense, multi-column list of entry titles grouped under three headers (Foundational references / Substance entries / Glossary, in that order, alphabetized within each) — modeled on the PDF's own two-column `#columns(2, outline(depth: 1))` front page, not a card grid. No excerpts here (excerpts exist only in `search-index.json`, for search-result snippets).
+A plain, dense, multi-column list of entry titles grouped under the `CATEGORY_ORDER` headers (Foundational references / Substance entries / Formulas / Glossary, in that order, alphabetized within each) — modeled on the PDF's own two-column `#columns(2, outline(depth: 1))` front page, not a card grid. No excerpts here (excerpts exist only in `search-index.json`, for search-result snippets).
 
 ### Entry page (`render_entry_page`)
 The article (`.entry`) is the **only** thing that determines text width: `max-width: var(--max-measure); margin: 0 auto;`, unconditionally, regardless of viewport or whether a TOC is present. This is deliberate — an earlier version shared a CSS grid track between the TOC and the article, which visibly squeezed/deformed the article at medium viewport widths. Do not reintroduce a layout where the TOC and the article compete for the same track.

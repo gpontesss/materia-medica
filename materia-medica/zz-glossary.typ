@@ -32,6 +32,10 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *臟腑 (zàng fǔ, "viscera-and-bowels")* — the organ-system framework. _Five zàng_ (yin / solid organs storing essence): 心 (Heart), 肝 (Liver), 脾 (Spleen), 肺 (Lung), 腎 (Kidney). _Six fǔ_ (yang / hollow organs processing substance): 膽 (Gallbladder), 胃 (Stomach), 小腸 (Small Intestine), 大腸 (Large Intestine), 膀胱 (Bladder), 三焦 (Triple Burner — the "extra" fu, governing fluid transport). Each zàng paired with a fǔ.
 
+*運化 (yùn huà, "transportation and transformation")* — the *Spleen's governing function*: transforming food and fluid into qi and blood and distributing them through the body. Its failure is the mechanism of 脾氣虛 (Spleen-qi vacuity), and it maps loosely — as an analogy, not an identity — onto modern notions of digestive, absorptive and gut-barrier function. See _four-gentlemen-decoction.typ_.
+
+*脾虛生濕 (pí xū shēng shī, "Spleen vacuity generates damp")* — the maxim that a failing Spleen leaves food and fluid untransformed, the residue becoming *damp*, which then further burdens the organ that failed to transform it: a *vicious circle*, not a side effect. The reason supplementing formulas for the Spleen must also dry and drain — see 補中有瀉 and _four-gentlemen-decoction.typ_.
+
 *三焦 (sān jiāo, "Triple Burner")* — a uniquely Chinese-medicine organ-system covering the upper (above diaphragm, Heart-Lung), middle (between diaphragm and umbilicus, Spleen-Stomach), and lower (below umbilicus, Kidney-Bladder-Intestines) regions; governs water-and-fluid transport. No anatomical Western equivalent.
 
 *歸經 (guī jīng, "channel-entry / channel-affinity")* — the specification, for each drug, of which of the twelve channels (jīng-luò) it preferentially affects. The four parameters of Chinese pharmacology are 性 + 味 + 升降浮沉 + 歸經.
@@ -137,6 +141,22 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 *生 (shēng) vs. 熟 (shú), 炙 (zhì), 炮 (páo), 炒 (chǎo), 煨 (wēi), 蒸 (zhēng), 烤 (kǎo)* — the saṃskāra-class processing modifiers. *生* (raw); *熟* (cooked / prepared); *炙* (honey-fried, sometimes wine-fried); *炮* (blast-fried, charred); *炒* (stir-fried); *煨* (roasted in ashes); *蒸* (steamed); *烤* (baked). Each modifier yields a distinct drug-form. See _ginger.typ_, _chinese-licorice.typ_, _rehmannia.typ_ for the foundational examples.
 
 *九蒸九晒 (jiǔ zhēng jiǔ shài, "nine steamings and nine sun-dryings")* — the elaborated steaming-and-drying process used principally for 熟地黃 rehmannia preparation; among the most-developed saṃskāra procedures in Chinese pharmacy.
+
+=== Formula construction
+
+*君臣佐使 (jūn chén zuǒ shǐ, "sovereign, minister, assistant, envoy")* — the *hierarchical role system of Chinese formula composition*, borrowed from the imagery of a royal court. *君 (jūn,* sovereign) — the chief drug, addressing the principal pattern; *臣 (chén,* minister) — reinforces the sovereign or treats a major concurrent aspect; *佐 (zuǒ,* assistant) — supports, or moderates the sovereign's harshness, or treats a secondary symptom; *使 (shǐ,* envoy) — guides the formula to its target channel and harmonizes the whole (licorice's classic position). Role assignment is *interpretive*: commentators frequently differ on a given formula. See _four-gentlemen-decoction.typ_.
+
+*基礎方 (jīchǔ fāng, "base formula")* — a formula valued less for its own prescription than as the *structural parent* of a family built on it by addition. 四君子湯 (qi) and 四物湯 (blood) are the two canonical examples; to learn a base formula is to learn the grammar of its category. See _four-gentlemen-decoction.typ_.
+
+*加減 (jiā jiǎn, "additions and subtractions")* — the modification of a classical formula to fit the individual presentation, by adding or removing drugs. The practice that makes the classical formulary a grammar rather than a fixed drug list; a named derived formula is a modification that became standard. See _four-gentlemen-decoction.typ_.
+
+*補中有瀉 (bǔ zhōng yǒu xiè, "drainage within supplementation")* — the architectural principle that a supplementing formula should build in a draining element, so that tonification does not become stagnation. The teaching examples are *四君子湯* (茯苓 draining among three sweet tonics) and *六味地黃丸* (the 三補三瀉, three tonics balanced by three drainers). See _four-gentlemen-decoction.typ_, _fuling.typ_, _rehmannia.typ_.
+
+*另煎 (lìng jiān, "decocted separately")* — preparing one drug apart from the rest and combining the liquids, used for costly drugs (ginseng) and for those whose actives do not survive a long shared boil. Related: *先煎* (pre-decocted, for minerals and shells), *後下* (added late, for volatile aromatics). See _four-gentlemen-decoction.typ_, _korean-ginseng.typ_.
+
+*錢 (qián)* — the classical Chinese weight unit of pre-modern prescriptions, approximately *3.7 g* in late-imperial measure (with real regional and period variation — conversions should be treated as approximate). Classical dose instructions in 錢 are often strikingly small by modern decoction standards, because the delivery was typically a *powder decocted*, not a large raw-herb brew. See _four-gentlemen-decoction.typ_.
+
+*顆粒 / 科學中藥 (kēlì / kēxué zhōngyào, "granules" / "scientific Chinese medicine")* — modern spray-dried concentrated-extract granules, the dominant delivery form in Taiwan, Japan and increasingly elsewhere. *Concentration ratios vary by manufacturer and are not interchangeable gram-for-gram with raw-herb decoction doses.* See _four-gentlemen-decoction.typ_.
 
 === Formula classes
 
@@ -309,7 +329,15 @@ See _fuling.typ_.
 
 *菊 / 菊花 (jú / júhuā)* — chrysanthemum flower (_Chrysanthemum × morifolium_); archaic form *鞠 (jú)*, as in _Shennong Bencao Jing_ (上品). *野菊花 (yějúhuā)* — wild chrysanthemum (_C. indicum_), a separate, more bitter and cold heat-toxin-clearing drug. Premium cultivated grades: *杭菊 (Hángjú)*, *滁菊 (Chújú)*, *亳菊 (Bójú)*, *貢菊 (Gòngjú,* "tribute chrysanthemum"). *菊花酒 (júhuājiǔ)* — chrysanthemum wine, the Double Ninth Festival (*重陽節, Chóngyáng Jié*) seasonal preparation. *Caution*: *not* to be confused with European chamomile, rendered in modern Chinese as *洋甘菊 (yáng gānjú, "foreign sweet-chrysanthemum")* — the 洋-prefix marks the Western import, parallel to 洋艾/苦艾 for wormwood (above). Nor with the unrelated cultural trope *四君子 (sì jūnzǐ, "Four Gentlemen")* — plum, orchid, bamboo, and chrysanthemum in literati painting/poetry — which shares its name by coincidence with, but is entirely distinct from, the formula *四君子湯 (Sì Jūnzǐ Tāng)* below. See _chrysanthemum.typ_, _chamomile.typ_.
 
-*四君子湯 (Sì Jūnzǐ Tāng, "Four Gentlemen Decoction")* — the foundational Spleen-qi-tonifying formula (人參, 白朮, 茯苓, 炙甘草), _Tài Píng Huì Mín Hé Jì Jú Fāng_ (1108). See _fuling.typ_; disambiguate from the painting/poetry 四君子 trope above.
+*四君子湯 (Sì Jūnzǐ Tāng, "Four Gentlemen Decoction")* — the *foundational Spleen-qi-tonifying formula* and the 基礎方 of the whole 補氣 category: *人參, 白朮, 茯苓, 炙甘草* in equal parts, from the Song imperial _Tài Píng Huì Mín Hé Jì Jú Fāng_ (1107–1110). The name turns on *君子*, the Confucian "gentleman" who governs by virtue rather than force — four mild, even-tempered (平和) tonics — with a pun on 君 as the technical term for a formula's *sovereign* drug. Its derived family: *異功散* (+陳皮), *六君子湯* (+陳皮, 半夏), *香砂六君子湯*, *參苓白朮散*, *八珍湯* (with 四物湯), *十全大補湯*. *Disambiguate* from the painting/poetry 四君子 trope above, with which it shares only the metaphor. Full treatment: _four-gentlemen-decoction.typ_.
+
+*四物湯 (Sì Wù Tāng, "Four Substances Decoction")* — the foundational *blood*-nourishing formula (熟地黃, 當歸, 白芍, 川芎), the deliberate counterpart of 四君子湯; the two combined form *八珍湯 (Bā Zhēn Tāng)* for dual qi-and-blood vacuity. See _four-gentlemen-decoction.typ_, _dang-gui.typ_, _rehmannia.typ_.
+
+*理中丸 (Lǐ Zhōng Wán, "Regulate the Middle Pill")* — 人參, 白朮, 炙甘草, 乾薑; for Spleen-Stomach *vacuity cold* (cold limbs, watery diarrhoea, abdominal pain relieved by warmth). Structurally 四君子湯 with 乾薑 in place of 茯苓 — the substitution that distinguishes a *warming* formula from a *damp-draining* one. See _four-gentlemen-decoction.typ_, _ginger.typ_.
+
+*白朮 (báizhú)* — the rhizome of _Atractylodes macrocephala_; bitter-sweet and warm, entering Spleen and Stomach; *健脾益氣* (strengthens Spleen, augments qi), *燥濕利水* (dries damp, promotes urination), *止汗*, *安胎* (calms the fetus). Usually *炒白朮* (stir-fried) when Spleen-strengthening is wanted. *Distinguish from 蒼朮 (cāngzhú,* _A. lancea_), which is *more strongly drying and much less tonifying* — appropriate where damp dominates and vacuity does not; choosing 白朮 over 蒼朮 declares a formula to be about vacuity rather than damp. *No substance entry yet*; see _four-gentlemen-decoction.typ_ for the fuller summary.
+
+*炙甘草 (zhì gāncǎo, "honey-fried licorice")* — licorice root stir-fried with honey: *warmer and more tonifying* than raw 生甘草, which is cooler and clears heat and toxicity. The form required wherever a formula warms and supplements the middle; substituting raw licorice changes the formula's thermal character, so the processing is part of the composition, not a sourcing detail. See _four-gentlemen-decoction.typ_, _chinese-licorice.typ_, _licorice-root.typ_.
 
 *薏苡仁 / 薏苡 / 薏米 / 薏仁 (yìyǐrén / yìyǐ / yìmǐ / yìrén)* — Job's tears seed (_Coix lacryma-jobi_ var. _ma-yuen_); _Shennong Bencao Jing_ 上品; sweet-and-*bland* (see 淡味滲泄), cool, entering Spleen, Stomach, and — distinctively — *Lung*, which underwrites its signature 清熱排膿 (heat-clearing, pus-expelling) action in lung and intestinal abscess. Classically noted as *mild and slow*, requiring larger doses (up to 30 g) and time to act; *妊娠慎用* (caution in pregnancy) — a classical caution later supported by modern uterine-stimulant findings. Drug-forms: *生薏苡仁 (shēng yìyǐrén)* raw, for damp-draining and pus-expelling; *炒 / 麩炒薏苡仁 (chǎo / fū-chǎo yìyǐrén)* dry- or bran-fried, for Spleen-strengthening and checking diarrhoea (健脾止瀉).
 
@@ -1255,6 +1283,8 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *茯苓 (ブクリョウ, bukuryō)* — Poria in Kampo, where it is among the most-used drugs (_Goreisan_ 五苓散, _Rikkunshito_ 六君子湯, _Keishibukuryogan_ 桂枝茯苓丸, _Hochuekkito_). See _fuling.typ_.
 
+*四君子湯 / 六君子湯 (Shikunshitō / Rikkunshitō)* — the Kampo readings of Four Gentlemen Decoction and its phlegm-damp expansion. *Rikkunshitō* is among the most prescribed Kampo formulas in Japan and carries *the best formula-level clinical evidence* of the family — randomized trials in functional dyspepsia and chemotherapy-induced nausea/anorexia, with a proposed *ghrelin-signalling* mechanism. That the evidence is Japanese rather than Chinese owes much to Kampo's standardization of composition and dose. See _four-gentlemen-decoction.typ_.
+
 *菊 (kiku)* — chrysanthemum in Japan: the *imperial emblem* (*菊花紋章, kikka monshō*, the sixteen-petal crest of the Imperial House), the Double-Ninth *菊の節句 (kiku no sekku)* festival, the edible petals *食用菊 (shokuyōgiku)* of autumn cuisine, and the tea *菊花茶 (kikkacha)*. The pharmacological use follows the Chinese; the symbolic and culinary registers are distinctively Japanese. See _chrysanthemum.typ_.
 
 *茼蒿 / 春菊 (shungiku)* — "chrysanthemum greens," the *leaf vegetable* _Glebionis coronaria_ — a *different species* from the medicinal chrysanthemum flower, and a frequent point of confusion. See _chrysanthemum.typ_.
@@ -1292,6 +1322,8 @@ _Korean terms used in the entries. The Korean pharmacological tradition (*한의
 === Other
 
 *황기 (hwanggi)* — astragalus (黃芪); see _astragalus.typ_.
+
+*사군자탕 (sagunjatang, 四君子湯)* — the Korean reading of Four Gentlemen Decoction; a standard prescription in 한의학 as elsewhere in the Sinitic medical world. See _four-gentlemen-decoction.typ_.
 
 *율무 (yulmu)* — Job's tears (_Coix lacryma-jobi_); *율무차 (yulmu-cha)*, a thick sweetened Job's-tears drink, is a standard Korean traditional beverage, usually taken hot — the roasted/thickened form being the climatically apt adaptation of a cooling grain to a cold-winter zone. See _coix.typ_.
 

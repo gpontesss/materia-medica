@@ -140,3 +140,38 @@ Both changes are documented in `site/CLAUDE.md` (a new scroll-margin-top rule un
 **Git history was not transplanted.** This repo starts its own history from this commit rather than replaying `writings`' commits (which would risk dragging along commit-message context from a repo that needs to stay private). The prior entries in this log were copied over as plain text instead, so the documented reasoning survives even though the commits themselves don't. `writings`' own `log.md` keeps its original entries too — nothing was deleted there, since they're an accurate record of decisions made in that repo at the time, even though the content they describe has since moved.
 
 **Left behind in `writings`, deliberately:** `lib/page.typ` (still needed there — `diary.typ` uses it too, independent of materia medica) and `.claude/settings.local.json` (machine/session-local Claude Code permissions, not project content, and full of hardcoded paths into the old repo that wouldn't even be correct here).
+
+---
+
+## 2026-10-03 — Formula entries; substances/ and formulas/ split
+
+**Problem:** The project had grown to 86 substance entries sitting flat in `materia-medica/` alongside the two foundational references and the glossary, and there was no place for a *different kind* of entry. Classical formulas had been accumulating as cross-references inside substance entries (四君子湯 in `fuling.typ` and `korean-ginseng.typ`, 桑菊飲 in `chrysanthemum.typ`, 葦莖湯 in `coix.typ`, and so on) with nowhere to be treated in their own right — and a formula is a genuinely different object from a substance: the interesting question is not "what is this drug across four traditions" but "why *these* drugs, in these proportions, for this pattern."
+
+**Decision:** Introduce formula entries as a first-class entry kind, and split the entry files into `materia-medica/substances/` and `materia-medica/formulas/`.
+
+**Structure.** `climates.typ`, `tibb-al-arabi.typ`, and `zz-glossary.typ` stay at the `materia-medica/` root — they are neither substances nor formulas, and leaving them there means the root holds exactly the non-entry material. The 86 substance files moved with `git mv` to preserve rename detection.
+
+**The book now assembles four ordered groups rather than one flat glob.** The Makefile builds `MM_REFERENCE`, `MM_SUBSTANCES`, `MM_FORMULAS`, `MM_GLOSSARY` and passes each as its own `--input`; `materia-medica.typ` includes them in order and emits centered *Substance Entries* and *Formulas* divider pages between them (level-1 headings, so they also appear in the front outline as section markers). The previous single `files=` input is gone. An empty formulas glob is harmless — the group-include already skips empty strings.
+
+**Site categories became folder-derived rather than slug-listed.** `category_for()` now takes the source `Path` and reads its parent folder (`formulas/` → `"formula"`, `substances/` → `"entry"`), with the glossary and the two references still special-cased by slug at the root. The practical gain: adding a substance or a formula needs no registration in `build.py` — only a genuinely new *kind* of entry does. `CATEGORY_ORDER` drives both the index grouping and its headings, so the new Formulas group appeared on the index without further changes.
+
+**Slugs share one flat namespace, and that is now enforced rather than assumed.** The site emits `<slug>.html` with no folder in the output path, so a substance and a formula with the same filename would silently overwrite each other. `entry_sources()` raises a `BuildError` naming both paths instead.
+
+**Cross-references were deliberately left as bare filenames.** Entries refer to each other in prose as `fuling.typ`, not `substances/fuling.typ`. Nothing in either build resolves these into links — they are human-readable pointers, filenames are unique project-wide, and rewriting ~90 files' worth of them would have been churn with no benefit. New entries may use the folder-qualified form where it aids clarity; the convention is documented in root `CLAUDE.md` so it does not get "fixed" later.
+
+**New: `materia-medica/formulas/CLAUDE.md`** — the authoritative formula-entry spec, mirroring how `materia-medica/CLAUDE.md` governs substances and inheriting its rules on honesty & sourcing, the glossary, footnotes, and tone. The substantive departures from the substance template:
+- **No four-tradition comparative frame.** A Chinese formula is a Chinese artifact; manufacturing an Ayurvedic or Tibb reading of one would be exactly the dressing-up-reasoned-extension-as-canon that this project's honesty standard forbids. Cross-system parallels go in a closing note, marked as comparison.
+- **Ingredients get 君臣佐使 roles** and their function *inside that formula*, not a generic description of the herb.
+- **Self-contained property summaries are mandatory** — each ingredient block opens with 性/味/歸經 plus principal actions, so a formula entry reads without opening the substance entries for each herb. This was the user's explicit requirement and is the rule most likely to be quietly economized on.
+- **No Typst tables.** A five-column ingredient table is unreadable on a 5-inch page and arrives unstyled through the site's HTML pipeline; bulleted per-ingredient blocks instead.
+- Template: Name & Meaning / Source & History / Composition (with per-ingredient subsections) / Formula Architecture / Indications & Pattern / Modifications & Derived Formulas / Preparation & Administration / Cautions & Contraindications / Modern Pharmacology / Sources.
+
+**New: `formula-entry` skill** (`.claude/skills/formula-entry/SKILL.md`), the formula-side counterpart of `herb-entry`. It carries one instruction worth noting: match the substance entries' own attributions for shared herbs, and surface a genuine conflict rather than silently picking a side — the substance entries are where this project's property and dose attributions live, and a formula entry that quietly contradicts them would corrupt both.
+
+**First formula entry: Four Gentlemen Decoction (四君子湯).** Chosen as the base case deliberately — it is the 基礎方 of the entire 補氣 category, so its derived family (異功散, 六君子湯, 香砂六君子湯, 參苓白朮散, 八珍湯, 十全大補湯) gives the new entry kind something substantial to be the parent of, and three of its four ingredients already have substance entries to summarize and cross-reference. Notes from writing it:
+- The name turns on the Confucian 君子 — drugs that work by sustained support rather than force — with a pun on 君 as the technical term for a formula's sovereign drug. Both readings are current; the entry gives both rather than choosing.
+- 白朮 has no substance entry yet, so its summary is given in full and the gap is stated in the entry rather than left as a silent omission.
+- Formula-level modern evidence is thinner than the constituent herbs' — most of what exists concerns the Kampo derivative 六君子湯 (Rikkunshitō), not 四君子湯 itself. The entry says so, and explicitly does not import the single-herb literature as evidence for the compound.
+- The practical ceiling on the formula is its 炙甘草: glycyrrhizin pseudoaldosteronism is what limits duration and dose, and is the reason modern practice reduces the licorice below the classical equal parts.
+
+**Glossary:** ~20 new terms, including a new *Formula construction* subsection under the Chinese-medicine section (君臣佐使, 基礎方, 加減, 補中有瀉, 另煎, 錢, 顆粒) — plus 運化, 脾虛生濕, and the drug and formula names the entry introduces (白朮/蒼朮, 炙甘草, 四物湯, 理中丸, and an expanded 四君子湯 entry listing the derived family). 補中有瀉 and 君臣佐使 had both been *used* in earlier entries without ever being defined; that gap is now closed.
