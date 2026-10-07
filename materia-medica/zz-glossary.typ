@@ -62,6 +62,10 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *淡味滲泄 (dàn wèi shèn xiè, "the bland flavour percolates and discharges")* — the classical principle that *blandness is a positive pharmacological category*, not merely an absence of taste: a bland drug drains dampness through urination. 淡 is one of the two flavours (with 澀, astringent) added to the canonical five. The principle governs the two great bland-sweet damp-drainers, 茯苓 and 薏苡仁 — and it has *no counterpart among the six Ayurvedic rasas*, a genuine structural asymmetry between the two pharmacologies. See _fuling.typ_, _coix.typ_.
 
+*三品 (sān pǐn, "the three grades")* — the _Shennong Bencao Jing_'s tripartite classification of drugs, and a clinical instruction rather than a ranking of quality. *上品 (shàng pǐn,* superior) — nourishing, non-toxic, safe for prolonged use, the longevity-and-constitution class (ginseng, poria, chrysanthemum, Job's tears, sesame). *中品 (zhōng pǐn,* middle) — tonifying or treating by turns, requiring judgement. *下品 (xià pǐn,* inferior) — *treats disease, possesses toxicity, not to be taken over long periods* (半夏, aconite). A 下品 classification marks a drug as potent and time-limited, not as inferior medicine. See _ban-xia.typ_.
+
+*有毒 (yǒu dú, "toxic")* — a *formal property* of a Chinese drug, stated in its entry alongside 性 (property) and 味 (flavour), and graded in the literature as 小毒 / 有毒 / 大毒 (slight, toxic, greatly toxic). It is a prescribing parameter, not a warning appended by modern editors: a 有毒 drug is expected to be processed (炮製), dose-limited, time-limited, and usually corrected by a companion drug. See _ban-xia.typ_.
+
 *升降浮沉 (shēng-jiàng fú-chén, "ascending-descending floating-sinking")* — the directional / depth tendency of a drug's action. _Shēng_ (ascending) and _fú_ (floating) drugs act outward and upward; _jiàng_ (descending) and _chén_ (sinking) drugs act inward and downward. The fourth Chinese pharmacological parameter.
 
 === Action vocabulary (representative — not exhaustive)
@@ -130,6 +134,10 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *透疹 (tòu zhěn)* — promotes the eruption of rashes (as in measles — the supportive use, helping the rash come out rather than suppressing it).
 
+*燥濕化痰 (zào shī huà tán)* — dries dampness and transforms phlegm; the action category of the acrid-warm-drying phlegm drugs, on the classical principle that phlegm arises from undrained damp and that the Spleen is its source (*治痰先治脾*, "to treat phlegm, first treat the Spleen"). Chief drug: 半夏; base formula 二陳湯. Distinguish from 滲濕 (leaching damp out through urination) and from 清熱化痰 (transforming *hot* phlegm). See _ban-xia.typ_, _tangerine-peel.typ_.
+
+*痞 (pǐ, "glomus" / "focal distention")* — a *subjective* sensation of stuffed fullness and blockage below the heart, characteristically *without* pain on pressure and without visible distension — which is what distinguishes it from 脹 (distension) and from 結胸 (chest bind). The indication of the *瀉心湯* formula family, which opens with acrid-warm drugs while descending with bitter-cold ones. See _ban-xia.typ_, _licorice-root.typ_.
+
 *滲濕 (shèn shī, "leach out dampness")* — percolates/leaches accumulated dampness out via urination; a finer-grained companion to 利水 (promotes urination generally), the two combining in the compound action 利水滲濕 (lì shuǐ shèn shī) that is the signature action of both 茯苓 (fúlíng) and 薏苡仁 (yìyǐrén) — see _fuling.typ_, _coix.typ_.
 
 *除痺 (chú bì)* — dispels Bì-obstruction (damp-type joint pain); see _coix.typ_.
@@ -145,6 +153,8 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 === Drug-form vocabulary
 
 *生 (shēng) vs. 熟 (shú), 炙 (zhì), 炮 (páo), 炒 (chǎo), 煨 (wēi), 蒸 (zhēng), 烤 (kǎo)* — the saṃskāra-class processing modifiers. *生* (raw); *熟* (cooked / prepared); *炙* (honey-fried, sometimes wine-fried); *炮* (blast-fried, charred); *炒* (stir-fried); *煨* (roasted in ashes); *蒸* (steamed); *烤* (baked). Each modifier yields a distinct drug-form. See _ginger.typ_, _chinese-licorice.typ_, _rehmannia.typ_ for the foundational examples.
+
+*白礬 / 石灰 / 竹瀝 (báifán / shíhuī / zhúlì)* — three of the corrective agents used in 炮製 processing, named here because the *agent* is what distinguishes one processed form of a drug from another. *白礬* (alum) and *石灰* (lime) are used to reduce the acridity and toxicity of harsh drugs; *竹瀝* (bamboo sap) is itself a cold phlegm-clearing drug, so processing with it can *invert* a warm drug's thermal nature. The pinellia forms 清半夏 (alum), 法半夏 (licorice and lime) and 竹瀝半夏 (bamboo sap) are the clearest illustration. See _ban-xia.typ_.
 
 *九蒸九晒 (jiǔ zhēng jiǔ shài, "nine steamings and nine sun-dryings")* — the elaborated steaming-and-drying process used principally for 熟地黃 rehmannia preparation; among the most-developed saṃskāra procedures in Chinese pharmacy.
 
@@ -333,6 +343,8 @@ See _garlic.typ_.
 
 *隔水燉 (gé shuǐ dùn, "double-boiled over water")* — the classical gentle-extraction method for costly tonic drugs: the drug is sealed in a covered vessel set inside a pot of simmering water, so it is never boiled hard and nothing is lost to a shared decoction. The standard preparation for ginseng; *含服* (holding a slice in the mouth to suck) is the other reserved-drug method. See _korean-ginseng.typ_.
 
+*半夏 (bànxià, "half summer")* — pinellia (_Pinellia ternata_, Araceae), the dried tuber; the premier *燥濕化痰* (damp-drying, phlegm-transforming) and *降逆止嘔* (counterflow-directing, vomiting-arresting) drug. Acrid (辛), warm (溫), *有毒*; Spleen, Stomach, Lung. *神農本草經 下品* — the lower class, i.e. potent, toxic, not for prolonged use. *The name is a calendar marker*: the plant appears at midsummer (*五月半夏生*, _Lǐjì_ "Yuèlìng"), and the Japanese seasonal day *半夏生 (hangeshō)*, ~1–2 July, is named after it and once set the deadline for rice transplanting. Older synonyms: *地文*, *守田* ("field-guardian" — it is a field weed), *水玉*. Classically *反烏頭* (counteracts aconite) among the *十八反* — canonical but contested in practice. *Processed forms, which are the whole drug:* *生半夏* raw and *toxic*, external use only; *清半夏* (alum) for phlegm-damp; *姜半夏* (ginger and alum) for vomiting; *法半夏* (licorice and lime), gentler; *半夏曲* (fermented) for phlegm with food stagnation; *竹瀝半夏* (bamboo sap), which *inverts* the drug's warmth for use in hot phlegm. "半夏" unqualified is an incomplete specification. See _ban-xia.typ_.
+
 *花生 / 落花生 (huāshēng / luòhuāshēng)* — *peanut* (_Arachis hypogaea_). The full name means "fallen-flower produce" and is a *botanical observation*: the flower drops and the pod forms *underground* (geocarpy). Sweet (甘), neutral (平); Spleen, Lung; *健脾養胃*, *潤肺化痰*, *通乳*. Also *長生果 (chángshēngguǒ,* "longevity fruit"), a folk-auspicious name. *Post-Columbian and late* — 16th-c. introduction, recorded in the Qing supplement _Běncǎo Gāngmù Shíyí_ (1765), absent from the Han canon. *花生衣 / 花生紅衣 (huāshēng yī,* "peanut coat") — *the thin red seed-coat, a separate drug*, used to *止血* (stop bleeding) and in a modern Chinese clinical register for thrombocytopenia; it is also the part removed by blanching and absent from most peanut butter. See _peanut.typ_.
 
 *芝麻醬 (zhīmajiàng)* — Chinese sesame paste: *unhulled*, hard-roasted, stone-ground thick and dark; *not* pourable, and let down with water by the *澥 (xiè)* technique, in which the paste first seizes before loosening. *醬* properly denotes a *fermented* paste; sesame paste is not fermented, the character being used loosely for thick pastes. *Distinct from Levantine ṭaḥīna* (hulled, light-roasted, pourable) and Japanese *練り胡麻*. See _sesame-seeds.typ_.
@@ -454,7 +466,9 @@ See _fuling.typ_.
 
 *स्वेदन (svedana)* — sweating / fomentation; the second pre-pañcakarma procedure.
 
-*शोधन (śodhana)* — cleansing / purification; the strong-clearing procedural class (vamana, virecana, etc.).
+*शोधन (śodhana)* — cleansing / purification, in *two distinct senses* that should not be conflated: (1) *therapeutic* — the strong-clearing procedural class applied to the patient (vamana, virecana, etc.); (2) *pharmaceutical* — the *purificatory processing of a drug* before it is fit to use, applied classically to the toxic and acrid dravyas: *vatsanābha* (aconite), *bhallātaka* (marking nut), *sūraṇa*, and the mineral and metallic preparations. The second sense is the Ayurvedic counterpart of the Chinese 炮製 and the frame in which a drug like 半夏 would be classed. See _ban-xia.typ_.
+
+*सूरण (sūraṇa)* — elephant-foot yam (_Amorphophallus paeoniifolius_, Araceae), a classical dravya and the Indian member of the acrid-aroid problem: raw it is *कण्डू-कर (kaṇḍū-kara,* itch- and irritation-producing), and it requires *śodhana* — boiling, or treatment with tamarind or buttermilk, or burial and ageing — before use. Noted because Ayurveda, Chinese medicine, Greco-Arabic pharmacy and European cottage industry *independently* identified the Araceae as acrid-but-valuable and independently arrived at processing as the answer. See _ban-xia.typ_.
 
 *शमन (śamana)* — pacification; the mild non-cleansing therapeutic class.
 
@@ -1081,6 +1095,8 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 
 *زبيب / عنب (zabīb / ʿinab)* — raisin / grape (_Vitis vinifera_); the deseeded raisin is *منقّى (munaqqā)*; Persian *انگور (angūr)*, *کشمش (kishmish)*, *مویز (mavīz)*. Hot-Moist (1st degree); a leading *muqawwī al-kabid* (liver tonic), nutritive (*mughadhdhī*), and gentle laxative (*mulayyin*). Strong Ṭibb al-Nabawī register: the Qurʾānic *أعناب (aʿnāb)* and the Prophetic *نبيذ الزبيب (nabīdh al-zabīb)*, non-intoxicating raisin-water. See _raisins.typ_.
 
+*لوف (lūf)* — *Arum* species in the Arabic materia medica, inherited from the Greek *ἄρον (áron)* of Dioscorides: an acrid aroid tuber, hot and sharp, requiring *cooking or drying* before use, applied to swellings and skin complaints. Attested in Ibn al-Bayṭār's _al-Jāmiʿ_. Noted as the Greco-Arabic member of the acrid-Araceae family — *a structural parallel to 半夏, not an attestation of it*. See _ban-xia.typ_.
+
 *طحينة (ṭaḥīna) / tahini* — Levantine sesame paste: *hulled* seed, lightly roasted or raw, ground fine and loose — pale, pourable, mild. The base of *hummus*, *baba ghanoush*, *tarator* and *ḥalāwa*. From the root *ط-ح-ن (ṭ-ḥ-n)*, "to grind" (*طحين, ṭaḥīn*, "flour"), so the name means simply "the ground thing." *Because the hull is removed, tahini is much lower in both calcium and oxalate than whole-seed sesame* — the ~1000 mg/100 g calcium figure quoted for sesame does not apply to it. Distinct from Chinese *芝麻醬* and Japanese *練り胡麻*. See _sesame-seeds.typ_.
 
 *فول سوداني (fūl sūdānī, "Sudanese bean")* — *peanut* in Arabic; Egyptian colloquial *سوداني (sūdānī)*. *The name is evidence of the transmission route*: the Old World received the peanut *from Africa*, not from the Americas, and the Arabic name records the second leg rather than the origin. *No classical Tibb attestation* — a post-Columbian plant absent from Avicenna and Ibn al-Bayṭār; Persian *بادام زمینی (bādām-e zamīnī,* "earth almond") assimilates it to the nut class. See _peanut.typ_.
@@ -1223,6 +1239,8 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *κόϊξ (kóïx)* — in Theophrastus and other classical authors, an *Egyptian palm* (generally identified as a _Hyphaene_ doum palm). Linnaeus reused the word for the unrelated Asian grass *Coix lacryma-jobi* (Job's tears) — a loose recycling of an available classical name, carrying *no* implication of ancient attestation for the Asian plant. The third of this book's Linnaean false friends, with _Lycium_ and _Chrysanthemum_. See _coix.typ_.
 
+*ἄρον (áron) / δρακόντιον (drakóntion)* — *Arum maculatum* (cuckoo-pint) and *Dracunculus*, the acrid Araceae of Dioscorides and Pliny: applied to swellings and sores, and taken internally *only after boiling or drying* to moderate the acridity. The same corrective principle as the Chinese 炮製 and the Ayurvedic *śodhana*, reached independently. The European tail of the story is *Portland sago*, a starch washed out of _Arum maculatum_ tubers in 18th–19th c. Dorset and sold as an invalid food — a cottage industry whose whole method is the separation of starch from the irritant fraction. See _ban-xia.typ_.
+
 *ἰνδικόν (indikón) / indicum* — "the Indian [dye]": the Greek and Latin name for *indigo*, naming the substance by its *provenance* — whence Spanish/Portuguese *índigo* and English *indigo*. Dioscorides and Pliny know it as an imported *pigment*, with only marginal medicinal use; the genuinely medicinal Western plant of this family is *woad* (_Isatis tinctoria_, Latin *glastum*), for which see `ban-lan-gen.typ`. *Note the double etymology:* the same substance reached the West twice under two names — *indigo* by provenance (Greek), and *anil* by colour (Sanskrit *नील* → Arabic *نيل* → Iberian *añil/anil*), the latter giving the chemical term *aniline*. See _qing-dai.typ_.
 
 *ἀμάραντος (amárantos, "unfading")* — amaranth; literally "the unfading flower"; the classical Greek-Roman symbol of *immortality* and the source of the Pauline NT _ἀμάραντος_ epithet (1 Peter 1:4, 5:4 — "inheritance unfading," "crown of unfading glory"). The classical Greco-Roman *ornamental* register; the seed-as-food use is American and post-Columbian to the Mediterranean. See _amaranth.typ_.
@@ -1338,6 +1356,8 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 *茼蒿 / 春菊 (shungiku)* — "chrysanthemum greens," the *leaf vegetable* _Glebionis coronaria_ — a *different species* from the medicinal chrysanthemum flower, and a frequent point of confusion. See _chrysanthemum.typ_.
 
 *朝鮮人参 / 高麗人参 (chōsen ninjin / kōrai ninjin)* — ginseng in Japanese, and *the qualifier is obligatory*: in modern Japanese *人参 (ninjin)* alone means *carrot*, the word having been transferred to the European root vegetable on a shape resemblance. A Japanese recipe calling for 人参 wants carrots. Red ginseng is *紅参 (kōjin)*. See _korean-ginseng.typ_.
+
+*半夏生 (hangeshō)* — one of the *雑節 (zassetsu)*, the supplementary seasonal markers of the traditional Japanese agricultural calendar: roughly 1–2 July, the eleventh day after the summer solstice, *named for the emergence of 半夏 (pinellia)*. It carried a real deadline — *rice transplanting had to be finished by hangeshō* — and regional customs attach to it, including the Kansai practice of eating octopus that day. A medicinal weed giving its name to a calendar date and a farming deadline, descending from the same phenological observation as the Chinese name 半夏 ("half summer"). See _ban-xia.typ_.
 
 *練り胡麻 / 胡麻豆腐 (neri goma / goma-dōfu)* — *neri goma*, "kneaded sesame," the Japanese sesame paste, made white (白練り胡麻) or black (黒練り胡麻), roasted and ground very smooth; the base of *胡麻だれ (goma-dare)* dressings and *胡麻和え (goma-ae)*. *胡麻豆腐 (goma-dōfu)* — sesame "tofu," neri goma set with kudzu starch: a staple of Buddhist temple cuisine (*精進料理, shōjin ryōri*) and one of the few dishes in which sesame paste is the food rather than a condiment. See _sesame-seeds.typ_.
 
