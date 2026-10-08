@@ -343,6 +343,8 @@ See _garlic.typ_.
 
 *隔水燉 (gé shuǐ dùn, "double-boiled over water")* — the classical gentle-extraction method for costly tonic drugs: the drug is sealed in a covered vessel set inside a pot of simmering water, so it is never boiled hard and nothing is lost to a shared decoction. The standard preparation for ginseng; *含服* (holding a slice in the mouth to suck) is the other reserved-drug method. See _korean-ginseng.typ_.
 
+*咖啡 (kāfēi)* — *coffee*; a *phonetic transliteration*, with the mouth radical 口 on both characters marking them as sound-borrowings — the standard Chinese convention for foreign words, and a different device from the *胡-* and *洋-* prefixes that mark a foreign *drug* (see those entries). *No Bencao entry*: coffee reached China in the late 19th c., with Yunnan plantations from the 1890s. The reasoned action most often assigned is *提神醒腦 (tí shén xǐng nǎo,* "refreshes the spirit and awakens the brain") — *醒腦*, "awakens the brain," naming the effect directly. See _coffee.typ_.
+
 *半夏 (bànxià, "half summer")* — pinellia (_Pinellia ternata_, Araceae), the dried tuber; the premier *燥濕化痰* (damp-drying, phlegm-transforming) and *降逆止嘔* (counterflow-directing, vomiting-arresting) drug. Acrid (辛), warm (溫), *有毒*; Spleen, Stomach, Lung. *神農本草經 下品* — the lower class, i.e. potent, toxic, not for prolonged use. *The name is a calendar marker*: the plant appears at midsummer (*五月半夏生*, _Lǐjì_ "Yuèlìng"), and the Japanese seasonal day *半夏生 (hangeshō)*, ~1–2 July, is named after it and once set the deadline for rice transplanting. Older synonyms: *地文*, *守田* ("field-guardian" — it is a field weed), *水玉*. Classically *反烏頭* (counteracts aconite) among the *十八反* — canonical but contested in practice. *Processed forms, which are the whole drug:* *生半夏* raw and *toxic*, external use only; *清半夏* (alum) for phlegm-damp; *姜半夏* (ginger and alum) for vomiting; *法半夏* (licorice and lime), gentler; *半夏曲* (fermented) for phlegm with food stagnation; *竹瀝半夏* (bamboo sap), which *inverts* the drug's warmth for use in hot phlegm. "半夏" unqualified is an incomplete specification. See _ban-xia.typ_.
 
 *花生 / 落花生 (huāshēng / luòhuāshēng)* — *peanut* (_Arachis hypogaea_). The full name means "fallen-flower produce" and is a *botanical observation*: the flower drops and the pod forms *underground* (geocarpy). Sweet (甘), neutral (平); Spleen, Lung; *健脾養胃*, *潤肺化痰*, *通乳*. Also *長生果 (chángshēngguǒ,* "longevity fruit"), a folk-auspicious name. *Post-Columbian and late* — 16th-c. introduction, recorded in the Qing supplement _Běncǎo Gāngmù Shíyí_ (1765), absent from the Han canon. *花生衣 / 花生紅衣 (huāshēng yī,* "peanut coat") — *the thin red seed-coat, a separate drug*, used to *止血* (stop bleeding) and in a modern Chinese clinical register for thrombocytopenia; it is also the part removed by blanching and absent from most peanut butter. See _peanut.typ_.
@@ -1050,7 +1052,9 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 
 *التصريف (al-Taṣrīf)* — al-Zahrāwī's _Taṣrīf_, c. 1000.
 
-*تذكرة أولي الألباب (Tadhkirat ūlī al-Albāb)* — al-Anṭākī's late-medieval compendium, late 16th c.
+*تذكرة أولي الألباب (Tadhkirat ūlī al-Albāb)* — al-Anṭākī's late-medieval compendium, late 16th c. Notable as a *late* Tibb source that treats substances post-dating Avicenna — including coffee (بن / قهوة), for which it is the principal classical pharmacological treatment. See _coffee.typ_.
+
+*عمدة الصفوة في حل القهوة (ʿUmdat al-ṣafwa fī ḥill al-qahwa)* — ʿAbd al-Qādir al-Jazīrī, 1587: a monograph arguing the *lawfulness of coffee*, and simultaneously a legal brief, a history of the drink's Sufi origins in 15th-c. Yemen, and a record of the medical opinions of the period. The primary source for the 1511 Mecca ban under Khāʾir Beg. *Coffee is the one substance in this book whose permissibility was formally litigated* — the dispute turning partly on the name قهوة having been borrowed from a word for wine. See _coffee.typ_.
 
 *طب أكبري (Ṭibb-e Akbarī)* — Hakim Arzānī's Mughal-period Unani text.
 
@@ -1095,6 +1099,8 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 
 *زبيب / عنب (zabīb / ʿinab)* — raisin / grape (_Vitis vinifera_); the deseeded raisin is *منقّى (munaqqā)*; Persian *انگور (angūr)*, *کشمش (kishmish)*, *مویز (mavīz)*. Hot-Moist (1st degree); a leading *muqawwī al-kabid* (liver tonic), nutritive (*mughadhdhī*), and gentle laxative (*mulayyin*). Strong Ṭibb al-Nabawī register: the Qurʾānic *أعناب (aʿnāb)* and the Prophetic *نبيذ الزبيب (nabīdh al-zabīb)*, non-intoxicating raisin-water. See _raisins.typ_.
 
+*قهوة / بن / قشر (qahwa / bunn / qishr)* — the three coffee words, distinguishing *beverage* from *bean* from *husk*. *قهوة (qahwa)* the drink — *and the name is borrowed from an older Arabic word for wine* (conventionally linked to the root ق-ه-ي, "to lack appetite"), which sharpened the juridical question of whether coffee was an intoxicant. *The derivation from the Ethiopian region* Kaffa *is a folk etymology* and is not adopted here. *بن (bunn)* the bean and plant (cf. Amharic *ቡና, buna*). *قشر (qishr)* the husk, and the Yemeni drink brewed from the dried coffee cherry with ginger and cinnamon — historically the commoner domestic preparation there, the bean being exported, and the same material as the modern specialty-trade "cascara." *Disambiguate:* قشر simply means "husk, peel," so it recurs in other compounds — *قشر الجوز (qishr al-jawz)*, walnut hull (see _black-walnut.typ_). *Mizāj:* Cold and Dry in the standard classical attribution — counterintuitively, since bitterness and blackness were the markers of *sawdāʾ* (black bile) — whence the *muṣliḥ*: *هال (hāl,* cardamom), still in the cup. See _coffee.typ_.
+
 *لوف (lūf)* — *Arum* species in the Arabic materia medica, inherited from the Greek *ἄρον (áron)* of Dioscorides: an acrid aroid tuber, hot and sharp, requiring *cooking or drying* before use, applied to swellings and skin complaints. Attested in Ibn al-Bayṭār's _al-Jāmiʿ_. Noted as the Greco-Arabic member of the acrid-Araceae family — *a structural parallel to 半夏, not an attestation of it*. See _ban-xia.typ_.
 
 *طحينة (ṭaḥīna) / tahini* — Levantine sesame paste: *hulled* seed, lightly roasted or raw, ground fine and loose — pale, pourable, mild. The base of *hummus*, *baba ghanoush*, *tarator* and *ḥalāwa*. From the root *ط-ح-ن (ṭ-ḥ-n)*, "to grind" (*طحين, ṭaḥīn*, "flour"), so the name means simply "the ground thing." *Because the hull is removed, tahini is much lower in both calcium and oxalate than whole-seed sesame* — the ~1000 mg/100 g calcium figure quoted for sesame does not apply to it. Distinct from Chinese *芝麻醬* and Japanese *練り胡麻*. See _sesame-seeds.typ_.
@@ -1112,6 +1118,10 @@ _See_ tibb-al-arabi.typ _for the substantive treatment of the framework. The glo
 *تفّاح (tuffāḥ)* — apple (_Malus domestica_); a major classical Tibb fruit, above all a *cardiac tonic and exhilarant* (*muqawwī al-qalb*, *mufarriḥ*) — the apple and its very scent (*shamm al-tuffāḥ*) gladden the heart; the basis of the *Tuffāḥī* cordials (*Sharbat-e Sīb*, *Murabbā-e Sīb*). Mizāj variety-graded (sweet apple temperate–warm-moist; sour apple cold-dry). Persian *سیب (sīb)*. See _apple.typ_.
 
 *كمّثرى (kummathrā)* — pear (_Pyrus_ spp.); a classical Tibb fruit, Cold-and-Dry, *qābiḍ* (astringent) and *muqawwī al-maʿida* (stomachic), cooling and thirst-quenching, best eaten ripe or cooked. Persian *گلابی (golābī)* / *امرود (amrūd)*; *nomenclature caution:* _amrūd_ historically meant pear but in *modern Urdu denotes guava* — unambiguous Urdu pear = *ناشپاتی (nāshpātī)*. See _pear.typ_.
+
+*هال / هيل (hāl / hayl)* — *cardamom*, and in the coffee context specifically the *muṣliḥ*: the warming aromatic added to correct a drug classed Cold-and-Dry. Gulf and Levantine *qahwa* is spiced with it as a matter of course, often with cinnamon, clove or saffron. *One of the clearest surviving cases in this book of a classical corrective pairing persisting as ordinary culinary practice long after the humoral theory that produced it.* See _coffee.typ_.
+
+*ذِكر (dhikr)* — "remembrance"; the Sufi devotional practice of repeated invocation, frequently performed in night-long sessions. *The institutional origin of coffee drinking*: 15th-c. Yemeni Sufis adopted *qahwa* as a *devotional stimulant* to sustain wakefulness through vigil, so the drink's first use was religious rather than social or medical. See _coffee.typ_.
 
 *سيكنجبين الثوم (Sikanjabīn-i Thūm)* — *garlic oxymel*; garlic + vinegar + honey syrup; the *Triyāq al-Fuqarāʾ* in syrup form.
 
@@ -1357,6 +1367,8 @@ The Latin / Greek-Latin Greek transmission gave English "sanguine," "phlegmatic,
 
 *朝鮮人参 / 高麗人参 (chōsen ninjin / kōrai ninjin)* — ginseng in Japanese, and *the qualifier is obligatory*: in modern Japanese *人参 (ninjin)* alone means *carrot*, the word having been transferred to the European root vegetable on a shape resemblance. A Japanese recipe calling for 人参 wants carrots. Red ginseng is *紅参 (kōjin)*. See _korean-ginseng.typ_.
 
+*珈琲 / コーヒー (kōhī)* — *coffee* in Japanese: ordinarily written in katakana, but also in *ateji* (phonetic kanji) as *珈琲*, characters chosen by the Edo-period scholar *Udagawa Yōan* — reportedly for the resemblance of a branch of coffee cherries to *珈* (a hairpin ornament) hung with *琲* (strings of beads). A sound-borrowing that is also a small visual pun. See _coffee.typ_.
+
 *半夏生 (hangeshō)* — one of the *雑節 (zassetsu)*, the supplementary seasonal markers of the traditional Japanese agricultural calendar: roughly 1–2 July, the eleventh day after the summer solstice, *named for the emergence of 半夏 (pinellia)*. It carried a real deadline — *rice transplanting had to be finished by hangeshō* — and regional customs attach to it, including the Kansai practice of eating octopus that day. A medicinal weed giving its name to a calendar date and a farming deadline, descending from the same phenological observation as the Chinese name 半夏 ("half summer"). See _ban-xia.typ_.
 
 *練り胡麻 / 胡麻豆腐 (neri goma / goma-dōfu)* — *neri goma*, "kneaded sesame," the Japanese sesame paste, made white (白練り胡麻) or black (黒練り胡麻), roasted and ground very smooth; the base of *胡麻だれ (goma-dare)* dressings and *胡麻和え (goma-ae)*. *胡麻豆腐 (goma-dōfu)* — sesame "tofu," neri goma set with kudzu starch: a staple of Buddhist temple cuisine (*精進料理, shōjin ryōri*) and one of the few dishes in which sesame paste is the food rather than a condiment. See _sesame-seeds.typ_.
@@ -1403,13 +1415,21 @@ _Korean terms used in the entries. The Korean pharmacological tradition (*한의
 
 *복령 (bongnyeong)* — Poria (茯苓) in Korean medicine. See _fuling.typ_.
 
+== Ethiopian (Amharic)
+
+_A small section, for the one substance in this book whose centre of origin and genetic diversity is the Ethiopian highland and whose home tradition is neither Arabic nor European._
+
+*ቡና (buna)* — *coffee* in Amharic, the word and the ritual. The *buna ceremony* is the household rite of roasting green beans over coals, grinding them, and brewing in a clay *jebena* before the guests, served in *three successive rounds* — *abol*, *tona* and *baraka* (the last meaning "blessing") — of decreasing strength. *Ethiopia is the plant's homeland, and the gradient there from forest through semi-forest and garden to plantation coffee preserves wild genetic diversity found nowhere else* — a reservoir of consequence for a crop whose cultivated base is narrow. Cf. Arabic *بن (bunn)*, the bean. See _coffee.typ_.
+
 == Brazilian / Portuguese / Indigenous Amazonian
 
 *Rapadura* — Brazilian / Lusophone artisanal unrefined whole-cane sugar. From Portuguese _rapar_, "to scrape." Closely related to Mexican _piloncillo_, Colombian _panela_, Indian _guḍa_, Chinese _hóngtáng_.
 
 *Açúcar mascavo* — partially-refined intermediate whole-cane sugar.
 
-*Cafezinho* — small-cup coffee; Brazilian household tradition.
+*Cafezinho* — small-cup coffee; the Brazilian household and social unit of hospitality, typically small, strong and pre-sweetened (often with *rapadura* or *açúcar mascavo* — see _rapadura.typ_). See _coffee.typ_.
+
+*Ouro verde / fazenda / república do café com leite* — the Brazilian coffee-economy vocabulary. *Ouro verde* ("green gold"), the 19th-c. name for the crop that made Brazil the world's largest producer from the 1840s; the *fazenda* plantation system, built on enslaved labour until abolition in 1888 and thereafter on Italian and Japanese immigrant labour; and the *república do café com leite* ("coffee-with-milk republic," 1894–1930), in which the presidency alternated between the coffee oligarchy of São Paulo and the dairy interests of Minas Gerais — *a national political arrangement named after a drink*. See _coffee.typ_.
 
 *Garrafada* — Brazilian folk-medical decoction; a generic compound preparation in a glass bottle.
 
