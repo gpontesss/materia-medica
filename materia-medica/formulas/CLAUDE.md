@@ -95,7 +95,7 @@ Reference substance entries by bare filename as the rest of the book does (`fuli
 
 ## Glossary rule
 
-Applies in full, per `materia-medica/CLAUDE.md`. Formula entries introduce a lot of new vocabulary — formula names, role terms (君臣佐使), preparation verbs, pattern names — and **every new foreign-language technical term must be added to `zz-glossary.typ` in the same change**. Formula *names* are glossed when the name is itself allusive or a known source of confusion; otherwise the entry carries them.
+Applies in full, per `materia-medica/CLAUDE.md`. Formula entries introduce a lot of new vocabulary — formula names, role terms (君臣佐使), preparation verbs, pattern names — and **every new foreign-language technical term must be added to `zz-glossary.typ` in the same change**. Formula *names* are glossed when the name is itself allusive or a known source of confusion; otherwise the entry carries them. Formulas cited **only as differentiation points** go into the glossary's clustered *"Adjacent formulas cited in differentiation"* entry — one line each — rather than becoming individual stubs or going unglossed; see the clustered-entry rule in `materia-medica/CLAUDE.md`.
 
 ## Build
 
