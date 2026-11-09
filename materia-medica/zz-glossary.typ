@@ -52,6 +52,10 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *寒熱虛實 (hán-rè xū-shí)* — the four-axis pattern descriptor: cold-vs-hot and vacuity-vs-excess. Combined with the six channels and the five-phase framework to generate specific patterns.
 
+*肝腎陰虛 (gān shèn yīn xū, "Liver-Kidney yin vacuity")* — the pattern of combined Liver-and-Kidney yin deficiency, resting on the *肝腎同源 / 乙癸同源* ("Liver and Kidney share a source") doctrine that Kidney-essence and Liver-blood continually interconvert, so that a chronic deficit in one eventually depletes the other. Presents with sore, weak low back and knees, tinnitus, dizziness, low-grade heat signs (五心煩熱), and — since the Liver's sensory opening is the eyes (肝開竅於目) — characteristically with blurred or diminishing vision as well. The pattern 六味地黃丸 is built to treat, and the one 杞菊地黃丸 directs specifically to the eyes. See `rehmannia.typ`, `qi-ju-di-huang-wan.typ`.
+
+*肝開竅於目 (gān kāi qiào yú mù, "the Liver opens into the eyes")* — the doctrine that the eyes are the Liver's sensory *竅* (orifice/opening), so that Liver (and, via 肝腎同源, Kidney) blood-and-yin pathology characteristically manifests first and most legibly in vision. The physiological basis for every eye-directed formula and action in this book's Chinese-medicine entries (菊花's 明目, 枸杞子's 益精明目, 杞菊地黃丸's whole construction). See `qi-ju-di-huang-wan.typ`.
+
 === Pharmacological framework — the four parameters of a Chinese drug
 
 *性 / 氣 (xìng / qì, "property / qi")* — the thermal classification of a drug, on five degrees: 寒 (hán, cold) → 涼 (liáng, cool) → 平 (píng, neutral) → 溫 (wēn, warm) → 熱 (rè, hot). The principal axis for cooling-vs-warming drug-pattern matching.
@@ -103,6 +107,8 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 *斂 (liǎn)* — restrain / consolidate. 斂汗 (restrains sweating), 斂肺 (consolidates the Lung).
 
 *固 (gù)* — secure / consolidate. 固表 (secures the exterior), 固精 (secures essence).
+
+*固澀 (gù sè, "astringes and secures")* — the compound action-category for a drug that *holds in* what the body would otherwise lose through an unconsolidated orifice or channel: stops spontaneous or night sweating, seminal emission, excessive uterine bleeding, chronic diarrhoea, or urinary frequency arising from a failure to *contain* rather than from an excess to *expel*. The signature action of sour-and-astringent (酸澀) drugs such as 山茱萸, and the reason a sour-astringent tonic is paired with purely enriching ones in formulas like 杞菊地黃丸 — enrichment alone fills a deficit; 固澀 keeps what is filled from leaking back out. See `qi-ju-di-huang-wan.typ`.
 
 *潤 (rùn)* — moisten. 潤肺 (moistens the Lung), 潤腸 (moistens the intestines for dry constipation), 潤燥 (moistens dryness).
 
@@ -180,6 +186,8 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *補中有瀉 (bǔ zhōng yǒu xiè, "drainage within supplementation")* — the architectural principle that a supplementing formula should build in a draining element, so that tonification does not become stagnation. The teaching examples are *四君子湯* (茯苓 draining among three sweet tonics) and *六味地黃丸* (the 三補三瀉, three tonics balanced by three drainers). See _four-gentlemen-decoction.typ_, _fuling.typ_, _rehmannia.typ_.
 
+*三補三瀉 (sān bǔ sān xiè, "three tonics, three drainers")* — the specific architecture of *六味地黃丸*, and the yin-tonifying category's own instance of 補中有瀉: three sweet enriching tonics, *熟地黃* (Kidney), *山茱萸* (Liver), *山藥* (Spleen), each paired with a drainer that checks the specific problem that tonic alone would generate in its own organ — *澤瀉* draining Kidney turbidity behind 熟地黃, *牡丹皮* draining Liver heat behind 山茱萸, *茯苓* draining Spleen damp behind 山藥. The pairing is *organ-matched*, not merely three tonics balanced against three drainers in the aggregate. See _rehmannia.typ_, _qi-ju-di-huang-wan.typ_.
+
 *薑棗 (jiāng zǎo, "ginger and jujube")* — the standard harmonizing-and-vehicle pair appended to a great many formulas: *生薑* warms the middle and checks vomiting, *大棗* supplements and moderates the harshness of the other drugs, and together they protect the Stomach and buffer acrid or drying ingredients. *Conventionally not counted among a formula's named drugs* — which is why 六君子湯 ("six gentlemen") usually has eight items in the pot. See _six-gentlemen-decoction.typ_, _ginger.typ_, _jujube-dates.typ_.
 
 *另煎 (lìng jiān, "decocted separately")* — preparing one drug apart from the rest and combining the liquids, used for costly drugs (ginseng) and for those whose actives do not survive a long shared boil. Related: *先煎* (pre-decocted, for minerals and shells), *後下* (added late, for volatile aromatics). See _four-gentlemen-decoction.typ_, _korean-ginseng.typ_.
@@ -244,6 +252,8 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 
 *梅核氣 (méi hé qì, "plum-pit qi")* — the classical sensation of a lump in the throat (modern: globus pharyngeus); the canonical 半夏厚朴湯 indication.
 
+*視瞻昏渺 (shì zhān hūn miǎo, "gazing dim and hazy")* — the classical ophthalmological term for progressive, non-acute blurring or diminishing of vision without frank redness or pain — the presenting complaint 杞菊地黃丸 is built to treat, distinguished from the acute red-and-painful-eye patterns of Liver fire or wind-heat. See _qi-ju-di-huang-wan.typ_.
+
 *癥瘕 (zhēng jiǎ, "concretions and conglomerations")* — chronic abdominal masses; the indication for asafoetida and other dissolving drugs.
 
 *疝氣 (shàn qì, "hernia-qi")* — cold-pattern hernia; the canonical 小茴香 / fennel indication.
@@ -295,6 +305,8 @@ _Back-matter reference. This glossary defines every foreign-language technical t
 *景岳全書 (Jǐng Yuè Quán Shū)* — Zhang Jingyue's _Complete Works of Zhang Jingyue_, 1624.
 
 *小兒藥證直訣 (Xiǎo Ér Yào Zhèng Zhí Jué)* — Qian Yi's _Key to Therapeutics of Children's Diseases_, 1119; the source of 六味地黃丸.
+
+*醫級 (Yī Jí, "Grades of Medicine")* — Dong Xiyuan's (董西園) Qing-dynasty text, c. 1777; the standard modern attribution for 杞菊地黃丸, flagged in that formula's own entry for verification against a specific edition. See _qi-ju-di-huang-wan.typ_.
 
 *喫茶養生記 (Kissa Yōjōki, "Notes on Drinking Tea for Nourishing Life")* — Eisai, 1211; the foundational Japanese tea-as-medicine text.
 
@@ -396,6 +408,10 @@ See _fuling.typ_.
 *四物湯 (Sì Wù Tāng, "Four Substances Decoction")* — the foundational *blood*-nourishing formula and 基礎方 of the blood-tonifying category: *熟地黃, 當歸, 白芍, 川芎*, from the Song _Tài Píng Huì Mín Hé Jì Jú Fāng_ (1107–1110) — though the combination appears earlier, in the Tang *仙授理傷續斷秘方*, as a *trauma* formula, repurposed from moving damaged blood to nourishing deficient blood. The name is deliberately plain (*物*, "thing, substance"), in pointed contrast to 四君子湯's Confucian conceit. Design rule: *補血而不滯血*. Derived family: *桃紅四物湯* (+桃仁, 紅花, for stasis), *膠艾湯* (+阿膠, 艾葉, for bleeding), *八珍湯* (with 四君子湯), *十全大補湯*, *聖愈湯*, *溫經湯*. Full treatment: _four-substances-decoction.typ_.
 
 *六君子湯 (Liù Jūnzǐ Tāng, "Six Gentlemen Decoction")* — 四君子湯 *+ 陳皮 + 半夏*, with 生薑 and 大棗 usually added; for Spleen-Stomach qi vacuity *with phlegm-damp* — nausea, vomiting, copious thin white sputum, a *white greasy coat*. Commonly attributed to Yu Tuan's _Yīxué Zhèngchuán_ (醫學正傳, 1515), with variant attributions. *Structurally it is very nearly 四君子湯 ∪ (二陳湯 − 烏梅)*, with *茯苓* and *甘草* belonging to both parents and serving in both capacities — the prescription form of the maxim *治痰先治脾*, "to treat phlegm, first treat the Spleen." *Its direction is upward* (nausea, sputum), the mirror of 參苓白朮散's downward elaboration of the same base. *The name counts six but the pot holds eight*: 生薑 and 大棗 are the standard *薑棗* harmonizing pair and are conventionally not counted. *Disambiguate* from the *戊戌六君子*, the six reformers executed in 1898 — unrelated. See _six-gentlemen-decoction.typ_.
+
+*六味地黃丸 (Liù Wèi Dì Huáng Wán, "Six-Ingredient Rehmannia Pill")* — the *foundational Liver-Kidney-yin-tonifying formula*, by most accounts the single most-prescribed classical formula in modern Chinese pharmacy: *熟地黃, 山茱萸, 山藥, 澤瀉, 牡丹皮, 茯苓*, from Qian Yi's _小兒藥證直訣_ (1119), originally a pediatric Kidney-yin formula built by *removing* 肉桂 and 附子 from the earlier 桂附地黃丸. Its architecture is *三補三瀉* (see above) — three organ-matched tonic-and-drainer pairs — the yin-tonifying category's own instance of *補中有瀉*. Large derivative family, each adding a pair to the unmodified base for a different emphasis: *知柏地黃丸* (+知母, 黃柏, empty-heat), *麥味地黃丸* (+麥門冬, 五味子, Lung-and-cough), *杞菊地黃丸* (+枸杞子, 菊花, eyes), *桂附地黃丸 / 金匱腎氣丸* (+肉桂, 附子, restoring the yang-warming pair removed at the formula's origin). Full treatment of the eye-directed derivative: `qi-ju-di-huang-wan.typ`; see also `rehmannia.typ`.
+
+*杞菊地黃丸 (Qǐ Jú Dì Huáng Wán, "Lycium, Chrysanthemum and Rehmannia Pill")* — 六味地黃丸 *+ 枸杞子 + 菊花*, directing the base formula's Liver-Kidney-yin tonification specifically to the eyes (視瞻昏渺, blurred or diminishing vision, dry eyes, floaters), per the *肝開竅於目* doctrine. Commonly attributed to 董西園's _醫級_ (c. 1777), flagged for edition verification. Full treatment: `qi-ju-di-huang-wan.typ`.
 
 *參苓白朮散 (Shēn Líng Bái Zhú Sǎn, "Ginseng, Poria and Atractylodes Powder")* — the great formula for *chronic* diarrhoea of Spleen vacuity with damp, and the most elaborated member of the 四君子湯 family: 四君子湯 plus *山藥, 蓮子肉, 白扁豆, 薏苡仁, 砂仁, 桔梗*, from the _Tài Píng Huì Mín Hé Jì Jú Fāng_ (1107–1110). *The name is a plain ingredient list*, unlike 四君子湯's Confucian conceit — Chinese formula names run from literary allusion to bare inventory, and this is the inventory end. Distinctive features: the Gentlemen core and 山藥 are *double-weighted*, so it is a tonic with a damp package rather than the reverse; damp is attacked by *three* mechanisms (燥, 滲, 芳香化濕); and *桔梗*, a Lung drug, supplies the only *upward* vector against four descending ones — see 培土生金 and 舟楫之劑. Taken classically with a *jujube decoction* as vehicle. Full treatment: _ginseng-poria-and-atractylodes-powder.typ_.
 
